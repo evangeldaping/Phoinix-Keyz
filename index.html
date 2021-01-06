@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Phoinix Keyz</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+  	
+		<script>
+			const checkpoint = 300;
+
+			window.addEventListener("scroll", () => {
+			  const currentScroll = window.pageYOffset;
+			  if (currentScroll <= checkpoint) {
+				opacity = 1 - currentScroll / checkpoint;
+			  } else {
+				opacity = 0;
+			  }
+			  document.querySelector(".artist").style.opacity = opacity;
+			  document.querySelector(".artist_name").style.opacity = opacity;
+			  document.querySelector(".facebook").style.opacity = opacity;
+			  document.querySelector(".youtube").style.opacity = opacity;
+			  document.querySelector(".instagram").style.opacity = opacity;
+			  document.querySelector(".snapcatch").style.opacity = opacity;
+			  document.querySelector(".twitter").style.opacity = opacity;
+			});
+		</script>
+   </head>
+   
+	<body>
+	
+	<div class="wrapper">
+
+		  <div class="hero">
+			<div class="img-wrapper">
+				<img class="artist" src="images/artist.png" width="891px" height="638px" style="position:absolute; top:35%; left: 50%; transform: translate(-50%, -50%);" />
+
+				<img class="artist_name" src="images/artist_name.png" width="200px" style="position:absolute; top:29%; left: 50%; transform: translate(-50%, -50%);" />
+
+				<img class="facebook" src="images/facebook-logo.png" width="9px" height="14" style="position:absolute; top:32%; left: 46.4%; transform: translate(-50%, -50%);" />
+
+				<img class="youtube" src="images/youtube-logo.png" width="17px" height="14" style="position:absolute; top:32%; left: 48%; transform: translate(-50%, -50%);" />
+
+				<img class="instagram" src="images/instagram-logo.png" width="15px" height="14" style="position:absolute; top:32%; left: 49.7%; transform: translate(-50%, -50%);" />
+
+				<img class="snapcatch" src="images/snapcatch-logo.png" width="15px" height="14" style="position:absolute; top:32%; left: 51.6%; transform: translate(-50%, -50%);" />
+
+				<img class="twitter" src="images/twitter-logo.png" width="15px" height="14" style="position:absolute; top:32%; left: 53.6%; transform: translate(-50%, -50%);" />
+			</div>
+		</div>
+	
+	
+		
+
+		<main class="middle">
+			<div class="container">
+				<div class="blocks">
+					<div class="block">
+						<div class="image"><img src="images/photo1.jpg" height="180" width="319" alt=""></div>
+						<div class="person">
+							<div class="photo"><img src="images/person1.jpg" height="50" width="50" alt=""></div>
+							<div class="text">
+								<div class="phrase">You neglect your friends</div>
+								<div class="info">Valerie Adams. Moldova. 19.</div>
+							</div>
+						</div>
+					</div>
+					<div class="block">
+						<div class="image"><img src="images/photo2.jpg" height="180" width="319" alt=""></div>
+						<div class="person">
+							<div class="photo"><img src="images/person2.jpg" height="50" width="50" alt=""></div>
+							<div class="text">
+								<div class="phrase">You forget your dreams</div>
+								<div class="info">Robert. Italy. 38.</div>
+							</div>
+						</div>
+					</div>
+					<div class="block">
+						<div class="image"><img src="images/photo3.jpg" height="180" width="319" alt=""></div>
+						<div class="person">
+							<div class="photo"><img src="images/person3.jpg" height="50" width="50" alt=""></div>
+							<div class="text">
+								<div class="phrase">You suppress your feelings</div>
+								<div class="info">Sergei. Italy. 38.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="news">
+					<div class="one">
+						<div class="img"><a href="#"><img src="images/news1.jpg" height="89" width="89" alt=""></a></div>
+						<div class="text">
+							<time>Oct 18</time>
+							<p><a href="#">I would like to avoid making these mistakes.</a></p>
+						</div>
+					</div>
+					<div class="one">
+						<div class="img"><a href="#"><img src="images/news2.jpg" height="89" width="89" alt=""></a></div>
+						<div class="text">
+							<time>Oct 8</time>
+							<p><a href="#">But how do you avoid mistakes you make by default?</a></p>
+						</div>
+					</div>
+					<div class="one">
+						<div class="img"><a href="#"><img src="images/news3.jpg" height="89" width="89" alt=""></a></div>
+						<div class="text">
+							<time>Oct 2</time>
+							<p><a href="#">Ideally you transform your life so it has other defaults.</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="featured">
+					<div class="title">Featured on:</div>
+					<ul>
+						<li><a href="#"><img src="images/logo-new-texas-times.png" height="28" width="262" alt=""></a></li>
+						<li><a href="#"><img src="images/logo-wooden.png" height="29" width="147" alt=""></a></li>
+						<li><a href="#"><img src="images/logo-vremya.png" height="22" width="112" alt=""></a></li>
+						<li><a href="#"><img src="images/logo-open-book1.png" height="29" width="30" alt=""></a></li> 
+						<li><a href="#"><img src="images/logo-open-book.png" height="29" width="217" alt=""></a></li>
+						<li><a href="#"><img src="images/logo-twitter.png" height="29" width="36" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<nav class="footer-nav">
+					<div class="column">
+						<div class="title">MAIN</div>
+						<ul>
+							<li><a href="#">Start Here</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Meet Us</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<div class="title">COMPANY</div>
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Directory</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<div class="title">ONE MORE</div>
+						<ul>
+							<li><a href="#">Meetups</a></li>
+							<li><a href="#">Handbook</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">API</a></li>
+							<li><a href="#">Equipment</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<div class="title">THE LAST ONE</div>
+						<ul>
+							<li><a href="#">Meetups</a></li>
+							<li><a href="#">Handbook</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">API</a></li>
+							<li><a href="#">Equipment</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="copyright">
+				<p>© 2013 be happy<br>
+					<a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
+				</p>
+			</div>
+		</footer>
+	</div>
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>          
+        <script src="js/main.js"></script>
+
+$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+   </body>
+</html>
