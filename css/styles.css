@@ -58,6 +58,24 @@
   	background-size: cover;
 }
 
+/*
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+*/
+body {
+    width: 100%;
+    height: 100%;
+    /* Text styles */
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    perspective: 4px; /* The depth */
+
+}
 /*===============================================================
  Hero Style
 ==================================================================*/
@@ -70,6 +88,7 @@
 	margin: auto;
 }	
 
+/*
 .img-wrapper {
   display: grid;
   height: 100vh;
@@ -84,7 +103,27 @@
   background-color: var(--gray);
   transition: opacity 0.1s;
 }
+*/
 
+
+
+header div {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    padding: 0 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transform: translateZ(-2px) scale(1.5);
+}
+header h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #009688;
+}
+header h2 {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
 
 
 /*===============================================================
