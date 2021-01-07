@@ -3,39 +3,46 @@
 ==================================================================*/
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont1";
     src: url("fonts/Moonshiner-Oblique.woff") format('woff');
 }
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont2";
     src: url("fonts/Moonshiner-ObliqueLines.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont3";
     src: url("fonts/Moonshiner-Regular.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont4";
     src: url("fonts/Moonshiner-RegularLines.woff") format('woff');
     font-style: italic;
 }
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont5";
     src: url("fonts/moonshiner-sharpoblique-webfont.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont6";
     src: url("fonts/moonshiner-sharp-webfont.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont7";
+    src: url("fonts/MyriadPro-Cond.woff") format('woff');
+ 	font-weight: bold;
     font-style: italic;
 }
 
@@ -44,7 +51,7 @@
 ==================================================================*/
 #wrapper {
     width: 890px;
-	height: 3142px;
+	height: 2365px;
     margin: 0 auto;
 	 /* The image used */
   	background-image: url("../images/bg-texture.jpg");
@@ -166,31 +173,72 @@
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
   background-color: #717171;
+}
 
-	
-/*===============================================================
- Search  Style
-==================================================================*/
-.search_area{text-align: right; width: 100%; clear: both;margin-bottom: 20px}
+.form-inline {
+  padding-top: 270px;
+}
 
-
+.change::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: black;
+}
+.change:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: black;
+    opacity: 1;
+}
+.change::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: black;
+    opacity: 1;
+}
+.change:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+#inputEmail{
+    color: black;
+}
 /*===============================================================
  Footer Style
 ==================================================================*/
-#footer_area{background: #252525; padding: 40px 0; color: #fff;}
-#footer_area h3{font-size: 20px;}
-#footer_area ul{margin: 0; padding: 0; list-style: none;}
-#footer_area ul li{display: block;margin-bottom: 5px; border-bottom: 1px solid #ddd;}
-#footer_area ul li a{color: #3bafbe;padding: 5px;display: block;}
-#footer_area input{margin-bottom: 10px;}
+.artist_name2{
+	padding: 70px;
+	margin-top: -60px;
+}
 
+.fb {
+	padding-left: 600px;
+	margin-top: -125px;
+}
+.yt {
+	padding-left: 650px;
+	margin-top: -55px;
+}
+.ig {
+	padding-left: 695px;
+	margin-top: -55px;
+}
+.sc {
+	padding-left: 740px;
+	margin-top: -55px;
+}
+.tw {
+	padding-left: 780px;
+	margin-top: -55px;
+}
 
 /*===============================================================
  Copyright Style
 ==================================================================*/
-#copyright{background: #1a1a1a; padding: 20px 0; color: #fff; }
-#copyright p{margin: 0;}
-#copyright .col-md-6:last-child{text-align: right;}
+.copyright {
+	padding: 70px; 
+	color: #fff;
+	font-size: 10px;
+	margin-top: -60px;
+}
+
 
 
 
