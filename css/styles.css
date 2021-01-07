@@ -42,15 +42,12 @@
 /*===============================================================
  Common Style
 ==================================================================*/
-.wrapper {
+#wrapper {
     width: 890px;
 	height: 3142px;
     margin: 0 auto;
 	 /* The image used */
   	background-image: url("../images/bg-texture.jpg");
-
- 	 /* Full height */
-  	height: 50%; 
 
   	/* Center and scale the image nicely */
   	background-position: center;
@@ -58,24 +55,6 @@
   	background-size: cover;
 }
 
-/*
-html {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-*/
-body {
-    width: 100%;
-    height: 100%;
-    /* Text styles */
-    font-family: 'Lato',sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #212121;
-    perspective: 4px; /* The depth */
-
-}
 /*===============================================================
  Hero Style
 ==================================================================*/
@@ -83,48 +62,70 @@ body {
 .hero {
   	background: url(../images/artist-bg.jpg) no-repeat;
 	background-size: contain;
-	height: 890px;
+	height: 650px;
 	width: 890px;
 	margin: auto;
 }	
 
-/*
 .img-wrapper {
-  display: grid;
-  height: 100vh;
+  	display: grid;
+  	height: 100vh;
 }
 
 .img-wrapper div {
-  grid-column: 1;
-  grid-row: 1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--gray);
-  transition: opacity 0.1s;
-}
-*/
-
-
-
-header div {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    padding: 0 30px;
-    font-family: 'Roboto Condensed', sans-serif;
-    transform: translateZ(-2px) scale(1.5);
-}
-header h1 {
-    font-size: 4.5rem;
-    font-weight: 700;
-    color: #009688;
-}
-header h2 {
-    font-size: 2.2rem;
-    font-weight: 300;
+  	grid-column: 1;
+  	grid-row: 1;
+ 	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-color: var(--gray);
+  	transition: opacity 0.1s;
 }
 
+/*===============================================================
+ Middle Style
+==================================================================*/
+
+
+.videos {
+  width: 15%;
+  height: 200px;
+  float: left;
+}
+
+.music {
+  margin-left: 15%;
+  height: 200px;
+  padding-left: 298px;
+  padding-top: 24px;
+}
+
+.container1 {
+  width: 890px;
+  height: 200px;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+.container2 {
+  width: 890px;
+  height: 200px;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 230px;
+}
+
+.container3 {
+  width: 890px;
+  height: 200px;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 200px;
+}
+.summer1 {
+	color:#fff;
+}
 
 /*===============================================================
  Search  Style
