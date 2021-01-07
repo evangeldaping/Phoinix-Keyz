@@ -4,75 +4,66 @@
 
 @font-face {
     font-family: "myfont1";
-    src: url("fonts/Moonshiner-Oblique.woff") format('woff');
+    src: url("../fonts/Moonshiner-Oblique.woff") format('woff');
+	font-style: italic;
 }
 
 @font-face {
     font-family: "myfont2";
-    src: url("fonts/Moonshiner-ObliqueLines.woff") format('woff');
+    src: url("../fonts/Moonshiner-ObliqueLines.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "myfont3";
-    src: url("fonts/Moonshiner-Regular.woff") format('woff');
+    src: url("../fonts/Moonshiner-Regular.woff") format('woff');
     font-weight: bold;
-    font-style: italic;
 }
 
 @font-face {
     font-family: "myfont4";
-    src: url("fonts/Moonshiner-RegularLines.woff") format('woff');
+    src: url("../fonts/Moonshiner-RegularLines.woff") format('woff');
     font-style: italic;
 }
 
 @font-face {
     font-family: "myfont5";
-    src: url("fonts/moonshiner-sharpoblique-webfont.woff") format('woff');
+    src: url("../fonts/moonshiner-sharpoblique-webfont.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "myfont6";
-    src: url("fonts/moonshiner-sharp-webfont.woff") format('woff');
+    src: url("../fonts/moonshiner-sharp-webfont.woff") format('woff');
     font-style: italic;
 }
 
 @font-face {
     font-family: "myfont7";
-    src: url("fonts/MyriadPro-Cond.woff") format('woff');
+    src: url("../fonts/MyriadPro-Cond.woff") format('woff');
  	font-weight: bold;
     font-style: italic;
 }
 
-/*===============================================================
- Common Style
-==================================================================*/
-#wrapper {
-    width: 890px;
-	height: 2365px;
-    margin: 0 auto;
-	 /* The image used */
-  	background-image: url("../images/bg-texture.jpg");
-
-  	/* Center and scale the image nicely */
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+@font-face {
+    font-family: "myfont8";
+    src: url("../fonts/Fjalla-One-regular.woff") format('woff');
+ 	font-weight: bold;
+    font-style: italic;
 }
 
 /*===============================================================
  Hero Style
 ==================================================================*/
 
-.hero {
-  	background: url(../images/artist-bg.jpg) no-repeat;
-	background-size: contain;
-	height: 650px;
-	width: 890px;
-	margin: auto;
-}	
+.artist {margin-top: 50px;}
+.artist_name {margin-top: 50px;}
+.facebook {margin-top: 50px;}
+.youtube {margin-top: 50px;}
+.instagram {margin-top: 50px;}
+.snapcatch {margin-top: 50px;}
+.twitter {margin-top: 50px;}
 
 .img-wrapper {
   	display: grid;
@@ -175,9 +166,7 @@
   background-color: #717171;
 }
 
-.form-inline {
-  padding-top: 270px;
-}
+.form-inline {padding-top: 270px;}
 
 .change::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
@@ -197,37 +186,17 @@
     /* Internet Explorer 10-11 */
     color: black;
 }
-#inputEmail{
-    color: black;
-}
+#inputEmail{color: black;}
+
 /*===============================================================
  Footer Style
 ==================================================================*/
-.artist_name2{
-	padding: 70px;
-	margin-top: -60px;
-}
-
-.fb {
-	padding-left: 600px;
-	margin-top: -125px;
-}
-.yt {
-	padding-left: 650px;
-	margin-top: -55px;
-}
-.ig {
-	padding-left: 695px;
-	margin-top: -55px;
-}
-.sc {
-	padding-left: 740px;
-	margin-top: -55px;
-}
-.tw {
-	padding-left: 780px;
-	margin-top: -55px;
-}
+.artist_name2{padding: 70px;margin-top: -60px;}
+.fb {padding-left: 600px;margin-top: -125px;}
+.yt {padding-left: 650px;margin-top: -55px;}
+.ig {padding-left: 695px;margin-top: -55px;}
+.sc {padding-left: 740px;margin-top: -55px;}
+.tw {padding-left: 780px;margin-top: -55px;}
 
 /*===============================================================
  Copyright Style
@@ -238,25 +207,3 @@
 	font-size: 10px;
 	margin-top: -60px;
 }
-
-
-
-
-/*===============================================================
- Responsive Style
-==================================================================*/
-@media only screen and (min-width:200px) and (max-width: 768px){
-    .social_area ul{text-align: center}  
-    .logo{float: none; margin: 0 auto 10px; text-align: center; width: 200px;}
-    #header_area .col-md-9{display: none;}
-    .slicknav_menu{display: block;}
-    .banner_textarea {width: 90%;}
-    .main_banner {width: 80%;}
-    #intro .col-md-4{margin-bottom: 20px;}
-    #footer_area .col-md-3{margin-bottom: 20px;}
-    #copyright .col-md-6:last-child{text-align: left;margin-top: 10px;}
-    #footer_area input{margin-bottom: 10px; width: 100%;}
-    #footer_area input[type="submit"]{width: 150px;}
-
-}
-
