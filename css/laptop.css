@@ -3,6 +3,407 @@
 ==================================================================*/
 
 /********** Laptop **********/
-@media only screen and (min-width:900px) and (max-width: 1440px){
- 
+@media only screen and (min-width:1024px) and (max-width: 1440px){
+	#wrapper {
+		width: 1024px;
+		height: 2460px;
+		margin: 0 auto;
+		background-image: url("../images/bg-texture.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.hero{
+		background: url(../images/artist-bg.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+  		background-repeat: no-repeat;
+		width:1024px;
+	}
+	#artist {margin-top: 120px;}
+	#artist_name {margin-top: 130px;}
+	#facebook {width: 10px;height:25px;margin-top: 140px;margin-left: -15px;}
+	#youtube {width: 25px;height:20px;margin-top: 140px;margin-left: -10px;}
+	#instagram {width: 20px;height:20px;margin-top: 140px;margin-left: 2px;}
+	#snapcatch {width: 20px;height:20px;margin-top: 140px;margin-left: 10px;}
+	#twitter {width: 20px;height:20px;margin-top: 140px;margin-left: 15px;}
+
+	.vid{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 45px; 
+		margin-left:160px;
+		position: relative;
+		bottom: 80px;
+	}
+	.vid_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		padding-left: 115px;
+		margin-top: -210px;
+		opacity: 0.1;
+	}
+	.info1{
+		color: white;
+		margin-left: 130px;
+		margin-top: -30px;
+		font-size: 18px;
+		font-family: myfont7; 
+	}
+	
+	#videos{padding-left: 10px;}
+	
+	.listen{
+		font-family: myfont3;
+		color: red;
+		font-size: 45px;
+		padding-left: 510px;
+		position: relative;
+		bottom: 332px;
+	}
+	.listen_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin-left: 380px;
+		margin-top: -460px;
+		opacity: 0.1;
+	}
+	.info2{
+		color: white;
+		padding-left: 520px;
+		font-size: 18px;
+		font-family: myfont7; 
+		position: relative;
+		bottom: 32px;
+	}
+	
+	#apple{padding-left: 530px;position: relative;bottom: 240px;}
+	#logo1{padding-left: 560px;position: relative;bottom: 268px;}
+	#logo2{padding-left: 590px;position: relative;bottom: 295px;}
+	#logo3{padding-left: 620px;position: relative;bottom: 322px;}
+	
+	.boxed{margin-left:-10px; margin-top:20px; }
+	
+	.circle img{
+		margin-left: 600px;
+		width:55px;
+		height:55px;
+		position: relative;
+		bottom: 70px;
+	}
+	
+	.title{
+		font-size: 20px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -110px;
+		margin-left: 670px;
+	}
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -30px;
+		margin-left: 670px;
+	}
+	
+	#songs{
+		font-size: 18px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 580px;
+		cursor: pointer;
+		width:300px;
+		height:100px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: -30px;
+	}
+	
+
+	td{
+		padding-left: 25px;
+	}
+
+	.time{
+		margin-left: 60px;
+	}
+
+	.tour{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 45px; 
+		margin: 0 auto; 
+		padding-left: 335px;
+		position:  relative;
+		bottom: 75px;
+	}
+	.tour_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin: 0 auto; 
+		float: left;
+		padding-left: 305px;
+		opacity: 0.1;
+		position:  relative;
+		bottom: 190px;
+	}
+	
+	#ticket1 img{
+		position:relative;
+		bottom: 360px;
+		margin-left:225px;
+		width:17%;
+		height:17%;
+		margin-right:100;
+		margin-top:100px;
+	}
+	#ticket2 img{
+		position:relative;
+		bottom: 615px;
+		margin-left:225px;
+		width:17%;
+		height:17%;
+		margin-right:100;
+		margin-top:100px;
+	}
+	#ticket3 img{
+		position:relative;
+		bottom: 500px;
+		margin-left:210px;
+		width:140px;
+		height:107px;
+		margin-right:100;
+		margin-top:100px;
+	}
+	#ticket4 img{
+		position:relative;
+		bottom: 750px;
+		margin-left:210px;
+		width:140px;
+		height:107px;
+		margin-right:100;
+		margin-top:100px;
+	}
+	
+	#summer1{
+		font-size: 18px;
+		margin-left:0px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		bottom: 190px;
+	}	
+	#summer2{
+		font-size: 18px;
+		margin-left: 10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		bottom: 310px;
+	}
+	#summer3{
+		font-size: 18px;
+		margin-left: 0px;
+		width:353px;height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		bottom: 190px;
+	}
+	#summer4{
+		font-size: 18px;
+		margin-left: 10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		bottom: 445px;
+	}
+	
+	#andrew {font-size: 15px; position:relative;bottom: 20px;}
+	#detroit {font-size: 15px;position:relative;bottom: 20px;}
+	
+	.white{
+		width:520px;
+		height:350px;
+		margin-left:-140px; 
+	}
+
+	.mySlides{
+		margin-left:-150px; 
+		width:650px;
+		height:212px;
+		position:relative;
+		bottom: 145px;
+	}
+	
+	.merchandise{
+		font-family: myfont3;
+		font-size: 90px;
+		color: black;
+	  	position:relative;
+		bottom: 355px;
+		margin-left: -150px;
+	}
+	
+	.love{
+		font-family: myfont8;
+		font-size: 45px;
+		color: #cf2b00;
+	  	position:relative;
+		bottom: 355px;
+		margin-left: -150px;
+	}
+	
+	.collection{
+		font-family: myfont7;
+		font-size: 35px;
+		color: black;
+	  	position:relative;
+		bottom: 355px;
+		margin-left: -150px;
+	}
+	
+	.shop{
+		font-family: myfont4;
+		font-size: 60px;
+		color: black;
+	  	position:relative;
+		bottom: 355px;
+		margin-left: 140px;
+	}
+	
+	.tshirt{
+		margin-left:500px;
+		width:55%;
+		height:55%;
+		position:relative;
+		bottom: 670px;
+	}
+	.dot-container{
+		margin-left:100px;
+		position:relative;
+		bottom: 70px;
+	}
+	
+	
+	.signup{
+		font-family: myfont1;
+		font-size: 45px;
+		color: #e23000;
+	  	position:relative;
+		bottom: 10px;
+		margin-left: 435px;
+	}
+	
+	.phoinix{
+		font-family: myfont3;
+		font-size: 90px;
+		color: #ffffff;
+	  	position:relative;
+		bottom: 50px;
+		margin-left: 235px;
+	}
+	
+	.updates{
+		font-family: myfont3;
+		font-size: 90px;
+		color: #ffffff;
+	  	position:relative;
+		bottom: 200px;
+		margin-left: 580px;
+	}
+	
+	.emailInput{
+		height:50px;
+		min-width: 600px; 
+		box-shadow: none !important;
+		-moz-box-shadow:  none !important; 
+		text-align: center; 
+		border-radius: 5px; 		
+		background-color: #3d3d3d; 
+		border-color: #3d3d3d;
+		font-size: 20px;
+		position:relative;
+		bottom: 470px;
+		margin-left:90px;
+	}
+	.btn{
+		width:225px;
+		height:50px;
+		border-radius: 5px;
+		font-size: 18px;
+		position:relative;
+		bottom: 520px;
+		margin-left: 710px;
+	}
+	
+	#whitebar img{
+		margin-top:40px;
+		width:1024px;
+		height:30px;
+		position:relative;
+		bottom: 520px;
+	}
+	
+	.facebook-logo img{
+		width: 15px;
+		height:25px;
+		margin-left:140px;
+		position:relative;
+		bottom: 460px;
+	}
+	.youtube-logo img{
+		width: 33px;
+		height:25px;
+		margin-left:120px;
+		position:relative;
+		bottom: 430px;
+	}
+	.instagram-logo img{
+		width: 25px;
+		height:25px;
+		margin-left:130px;
+		position:relative;
+		bottom: 401px;
+	}
+	.snapcatch-logo img{
+		width: 28px;
+		height:25px;
+		margin-left:130px;
+		position:relative;
+		bottom: 373px;
+	}
+	.twitter-logo img{
+		width: 28px;
+		height:25px;
+		margin-left:130px;
+		position:relative;
+		bottom: 343px;
+	}
+
+	.artist_name2 img{
+		width: 280px;
+		height:40px;
+		margin-left:140px;
+		position:relative;
+		bottom: 490px;
+	}
+	.copyright{
+		width:500px;
+		height:40px;
+		margin-left:140px;
+		font-size: 10px;
+		position:relative;
+		bottom: 350px;
+	}
 }

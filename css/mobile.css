@@ -1,6 +1,3 @@
-/*===============================================================
- Responsive Style
-==================================================================*/
 
 /********** iPhone 5 **********/
 
@@ -22,7 +19,7 @@
 		width:568px;
 	}
 	#artist {margin-top: 120px;}
-	#artist_name {margin-top: 120px;}
+	#artist_name {margin-top: 130px;}
 	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
 	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
 	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
@@ -85,13 +82,33 @@
 	.boxed{margin-left:-10px; margin-top:20px; }
 	.circle img{margin-left: 110px; margin-top: 500px;width:100px;height:110px;}
 	
-	.title{font-size: 25px; color: white;font-family: myfont7;margin-top: -80px; margin-left: 250px;}
-	.desc{color: white;font-family: myfont7; margin-top: -15px; margin-left: 250px;}
+	.title{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -80px;
+		margin-left: 250px;
+	}
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -15px;
+		margin-left: 250px;
+	}
 	
-	#songs{font-size: 25px;color: white;font-family: myfont7;
-	border: 1px solid white; margin-left: 80px;cursor: pointer;
-	width:353px;height:325px;  text-align: center; 
-    vertical-align: middle; margin-top: 10px;}
+	#songs{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 80px;
+		cursor: pointer;
+		width:353px;
+		height:325px; 
+		text-align: center; 
+    	vertical-align:middle;
+		margin-top: 10px;
+	}
 	
 
 	td{
@@ -121,15 +138,74 @@
 		opacity: 0.1;
 	}
 	
-	#ticket1 img{margin-left:-10px;width:353px;height:212px;margin-right:100;margin-top:30px;}
-	#ticket2 img{margin-left:-10px;width:353px;height:212px;margin-right:100;margin-top:20px;}
-	#ticket3 img{margin-left:-528px;width:353px;height:212px;margin-right:100;margin-top:1350px;}
-	#ticket4 img{margin-left:-530px;width:353px;height:212px;margin-right:120;margin-top:1895px;}
+	#ticket1 img{
+		margin-left:-10px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:30px;
+	}
+	#ticket2 img{
+		margin-left:-10px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:20px;
+	}
+	#ticket3 img{
+		margin-left:-528px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:1350px;
+	}
+	#ticket4 img{
+		margin-left:-530px;
+		width:353px;
+		height:212px;
+		margin-right:120;
+		margin-top:1895px;
+	}
 	
-	#summer1{font-size: 35px; margin-left:-20px; margin-top:10px;width:353px;height:212px; color: white;font-family: myfont7;}	
-	#summer2{font-size: 35px; margin-left:-10px; margin-top:70px;width:353px;height:212px; color: white;font-family: myfont7;}
-	#summer3{font-size: 35px; margin-left:-285px; margin-top:1110px;width:353px;height:212px; color: white;font-family: myfont7;}
-	#summer4{font-size: 35px; margin-left:-530px; padding-top:1650px;width:353px;height:212px; color: white;font-family: myfont7;}
+	#summer1{
+		font-size: 35px;
+		margin-left:-20px;
+		margin-top:10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}	
+	#summer2{
+		font-size: 35px;
+		margin-left:-10px;
+		margin-top:70px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer3{
+		font-size: 35px;
+		margin-left:-285px;
+		margin-top:1110px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer4{
+		font-size: 35px;
+		margin-left:-530px;
+		padding-top:1650px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	
+	#andrew {font-size: 25px;}
+	#detroit {font-size: 25px;}
 
 	.mySlides{
 		margin-left:-276px; 
@@ -175,8 +251,16 @@
 		margin-top: -100px;
 	}
 	
-	.tshirt{margin-left:150px; margin-top:100px;width:400px;height:350px;}
-	.dot-container{margin-left:-390px; padding-top:2750px;}
+	.tshirt{
+		margin-left:150px;
+		margin-top:100px;
+		width:400px;
+		height:350px;
+	}
+	.dot-container{
+		margin-left:-390px;
+		padding-top:2750px;
+	}
 	
 	
 	.signup{
@@ -227,16 +311,55 @@
 		border-radius: 5px;
 		font-size: 20px;
 	}
-	#whitebar img{margin-top:40px;width:483px;height:30px;}
+	#whitebar img{
+		margin-top:40px;
+		width:483px;
+		height:30px;
+	}
 	
-	.fb img{width: 15px;height:25px;margin-top:-40px;margin-left:-450px;}
-	.yt img{width: 33px;height:25px;margin-top:15px;margin-left:-470px;}
-	.ig img{width: 25px;height:25px;margin-top:30px;margin-left:-470px;}
-	.sc img{width: 28px;height:25px;margin-top:30px;margin-left:-480px;}
-	.tw img{width: 28px;height:25px;margin-top:30px;margin-left:-480px;}
+	.facebook-logo img{
+		width: 15px;
+		height:25px;
+		margin-top:-40px;
+		margin-left:-450px;
+	}
+	.youtube-logo img{
+		width: 33px;
+		height:25px;
+		margin-top:15px;
+		margin-left:-470px;
+	}
+	.instagram-logo img{
+		width: 25px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-470px;
+	}
+	.snapcatch-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-480px;
+	}
+	.twitter-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-480px;
+	}
 
-	.artist_name2 img{width: 219px;height:21px;margin-top:80px;margin-left:60px;}
-	.copyright{width:320px;height:21px;margin-top:10px;margin-left:80px;}
+	.artist_name2 img{
+		width: 219px;
+		height:21px;
+		margin-top:80px;
+		margin-left:60px;
+	}
+	.copyright{
+		width:320px;
+		height:21px;
+		margin-top:10px;
+		margin-left:80px;
+	}
 	
 }
 
@@ -262,7 +385,7 @@
 		width:667px;
 	}
 	#artist {margin-top: 120px;}
-	#artist_name {margin-top: 120px;}
+	#artist_name {margin-top: 130px;}
 	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
 	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
 	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
@@ -325,15 +448,39 @@
 	#logo2{padding-left: 265px; margin-top: -27px;}
 	#logo3{padding-left: 305px; margin-top: -27px;}
 	.boxed{margin-left:-10px; margin-top:20px; }
-	.circle img{margin-left: 200px; margin-top: 500px;width:100px;height:110px;}
+	.circle img{
+		margin-left: 200px;
+		margin-top: 500px;
+		width:100px;
+		height:110px;
+	}
 	
-	.title{font-size: 25px; color: white;font-family: myfont7;margin-top: -80px; margin-left: 340px;}
-	.desc{color: white;font-family: myfont7; margin-top: -15px; margin-left: 340px;}
+	.title{font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -80px;
+		margin-left: 340px;
+	}
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -15px;
+		margin-left: 340px;
+	}
 	
-	#songs{font-size: 25px;color: white;font-family: myfont7;
-	border: 1px solid white; margin-left: 170px;cursor: pointer;
-	width:353px;height:325px;  text-align: center; 
-    vertical-align: middle; margin-top: 10px;}
+	#songs{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 170px;
+		cursor: pointer;
+		width:353px;
+		height:325px;
+		text-align: center; 
+    	vertical-align: middle;
+		margin-top: 10px;
+	}
 	
 
 	td{
@@ -363,15 +510,71 @@
 		opacity: 0.1;
 	}
 	
-	#ticket1 img{margin-left:90px;width:353px;height:212px;margin-right:100;margin-top:30px;}
-	#ticket2 img{margin-left:90px;width:353px;height:212px;margin-right:100;margin-top:20px;}
-	#ticket3 img{margin-left:-515px;width:353px;height:212px;margin-right:100;margin-top:1350px;}
-	#ticket4 img{margin-left:-520px;width:353px;height:212px;margin-right:120;margin-top:1895px;}
+	#ticket1 img{
+		margin-left:90px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:30px;
+	}
+	#ticket2 img{
+		margin-left:90px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:20px;
+	}
+	#ticket3 img{
+		margin-left:-515px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:1350px;
+	}
+	#ticket4 img{
+		margin-left:-520px;
+		width:353px;
+		height:212px;
+		margin-right:120;
+		margin-top:1895px;
+	}
 	
-	#summer1{font-size: 35px; margin-left:80px; margin-top:10px;width:353px;height:212px; color: white;font-family: myfont7;}	
-	#summer2{font-size: 35px; margin-left:90px; margin-top:70px;width:353px;height:212px; color: white;font-family: myfont7;}
-	#summer3{font-size: 35px; margin-left:-275px; margin-top:1110px;width:353px;height:212px; color: white;font-family: myfont7;}
-	#summer4{font-size: 35px; margin-left:-520px; padding-top:1650px;width:353px;height:212px; color: white;font-family: myfont7;}
+	#summer1{
+		font-size: 35px;
+		margin-left:80px;
+		margin-top:10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}	
+	#summer2{
+		font-size: 35px;
+		margin-left:90px;
+		margin-top:70px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer3{
+		font-size: 35px;
+		margin-left:-275px;
+		margin-top:1110px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer4{
+		font-size: 35px;
+		margin-left:-520px;
+		padding-top:1650px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
 
 	.mySlides{
 		margin-left:-160px; 
@@ -417,8 +620,16 @@
 		margin-top: -100px;
 	}
 	
-	.tshirt{margin-left:150px; margin-top:100px;width:400px;height:350px;}
-	.dot-container{margin-left:-275px; padding-top:2750px;}
+	.tshirt{
+		margin-left:150px;
+		margin-top:100px;
+		width:400px;
+		height:350px;
+	}
+	.dot-container{
+		margin-left:-275px;
+		padding-top:2750px;
+	}
 	
 	
 	.signup{
@@ -471,13 +682,49 @@
 	
 	#whitebar img{margin-top:40px;width:667px;height:30px;}
 	
-	.fb img{width: 15px;height:25px;margin-top:-40px;margin-left:-440px;}
-	.yt img{width: 33px;height:25px;margin-top:15px;margin-left:-420px;}
-	.ig img{width: 25px;height:25px;margin-top:30px;margin-left:-390px;}
-	.sc img{width: 28px;height:25px;margin-top:30px;margin-left:-365px;}
-	.tw img{width: 28px;height:25px;margin-top:30px;margin-left:-325px;}
+	.facebook-logo img{
+		width: 15px;
+		height:25px;
+		margin-top:-40px;
+		margin-left:-440px;
+	}
+	.youtube-logo img{
+		width: 33px;
+		height:25px;
+		margin-top:15px;
+		margin-left:-420px;
+	}
+	.instagram-logo img{
+		width: 25px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-390px;
+	}
+	.snapcatch-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-365px;
+	}
+	.twitter-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-325px;
+	}
 
-	.artist_name2 img{width: 400px;height:40px;margin-top:80px;margin-left:60px;}
-	.copyright{width:500px;height:40px;margin-top:10px;margin-left:125px;font-size: 15px;}
+	.artist_name2 img{
+		width: 400px;
+		height:40px;
+		margin-top:80px;
+		margin-left:60px;
+	}
+	.copyright{
+		width:500px;
+		height:40px;
+		margin-top:10px;
+		margin-left:125px;
+		font-size: 15px;
+	}
 	
 }
