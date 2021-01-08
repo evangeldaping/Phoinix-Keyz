@@ -1,0 +1,730 @@
+
+/********** iPhone 5 **********/
+
+@media only screen and (min-width:320px) and (max-width: 568px){ 
+	#wrapper {
+		width: 568px;
+		height: 6150px;
+		margin: 0 auto;
+		background-image: url("../images/bg-texture.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.hero{
+		background: url(../images/artist-bg.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+  		background-repeat: no-repeat;
+		width:568px;
+	}
+	#artist {margin-top: 120px;}
+	#artist_name {margin-top: 130px;}
+	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 180px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 180px;margin-left: 15px;}
+	
+	.vid{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin: 0 auto; 
+		padding-left: 90px;
+		margin-top: -110px;
+	}
+	.vid_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin: 0 auto; 
+		padding-left: 30px;
+		margin-top: -200px;
+		opacity: 0.1;
+	}
+	.info1{
+		color: white;
+		padding-left: 40px;
+		margin-top: -30px;
+		font-size: 35px;
+		font-family: myfont7; 
+	}
+	
+	.listen{
+		font-family: myfont3;
+		color: red;
+		font-size: 90px;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+	.listen_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin-left: -100px;
+		margin-top: -200px;
+		opacity: 0.1;
+	}
+	.info2{
+		color: white;
+		padding-left: 45px;
+		margin-top: -50px;
+		font-size: 35px;
+		font-family: myfont7; 
+	}
+	
+	#apple{padding-left: 95px;}
+	#logo1{padding-left: 135px; margin-top: -28px;}
+	#logo2{padding-left: 175px; margin-top: -27px;}
+	#logo3{padding-left: 215px; margin-top: -27px;}
+	.boxed{margin-left:-10px; margin-top:20px; }
+	.circle img{margin-left: 110px; margin-top: 500px;width:100px;height:110px;}
+	
+	.title{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -80px;
+		margin-left: 250px;
+	}
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -15px;
+		margin-left: 250px;
+	}
+	
+	#songs{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 80px;
+		cursor: pointer;
+		width:353px;
+		height:325px; 
+		text-align: center; 
+    	vertical-align:middle;
+		margin-top: 10px;
+	}
+	
+
+	td{
+		padding-left: 25px;
+	}
+
+	.time{
+		margin-left: 60px;
+	}
+
+	.tour{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin: 0 auto; 
+		padding-left: 100px;
+		margin-top: 120px;
+	}
+	.tour_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin: 0 auto; 
+		margin-top: -200px;
+		float: left;
+		padding-left: 65px;
+		opacity: 0.1;
+	}
+	
+	#ticket1 img{
+		margin-left:-10px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:30px;
+	}
+	#ticket2 img{
+		margin-left:-10px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:20px;
+	}
+	#ticket3 img{
+		margin-left:-528px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:1350px;
+	}
+	#ticket4 img{
+		margin-left:-530px;
+		width:353px;
+		height:212px;
+		margin-right:120;
+		margin-top:1895px;
+	}
+	
+	#summer1{
+		font-size: 35px;
+		margin-left:-20px;
+		margin-top:10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}	
+	#summer2{
+		font-size: 35px;
+		margin-left:-10px;
+		margin-top:70px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer3{
+		font-size: 35px;
+		margin-left:-285px;
+		margin-top:1110px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer4{
+		font-size: 35px;
+		margin-left:-530px;
+		padding-top:1650px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	
+	#andrew {font-size: 25px;}
+	#detroit {font-size: 25px;}
+
+	.mySlides{
+		margin-left:-276px; 
+		padding-top:2000px;width:353px;
+		height:212px;
+		position: relative;
+		text-align: center;
+	}
+	
+	.merchandise{
+		font-family: myfont3;
+		font-size: 90px;
+		color: black;
+	  	position: absolute;
+		padding-left: 130px;
+		margin-top: -350px;
+	}
+	
+	.love{
+		font-family: myfont8;
+		font-size: 45px;
+		color: #cf2b00;
+	  	position: absolute;
+		padding-left: 200px;
+		margin-top: -220px;
+	}
+	
+	.collection{
+		font-family: myfont7;
+		font-size: 35px;
+		color: black;
+	  	position: absolute;
+		padding-left: 245px;
+		margin-top: -160px;
+	}
+	
+	.shop{
+		font-family: myfont4;
+		font-size: 60px;
+		color: black;
+	  	position: absolute;
+		padding-left: 420px;
+		margin-top: -100px;
+	}
+	
+	.tshirt{
+		margin-left:150px;
+		margin-top:100px;
+		width:400px;
+		height:350px;
+	}
+	.dot-container{
+		margin-left:-390px;
+		padding-top:2750px;
+	}
+	
+	
+	.signup{
+		font-family: myfont1;
+		font-size: 90px;
+		color: #e23000;
+	  	position: absolute;
+		padding-left: 90px;
+		margin-top: 100px;
+	}
+	
+	.phoinix{
+		font-family: myfont3;
+		font-size: 130px;
+		color: #ffffff;
+	  	position: absolute;
+		padding-left: 10px;
+		margin-top: 170px;
+	}
+	
+	.updates{
+		font-family: myfont3;
+		font-size: 130px;
+		color: #ffffff;
+	  	position: absolute;
+		padding-left: 90px;
+		margin-top: 290px;
+	}
+	
+	.emailInput{
+		margin-left:0px; 
+		margin-top: 110px;
+		width: 483px; 
+		height:65px;
+		box-shadow: none !important;
+		-moz-box-shadow:  none !important; 
+		text-align: center; 
+		border-radius: 5px; 		
+		background-color: #3d3d3d; 
+		border-color: #3d3d3d;
+		font-size: 20px;
+	}
+	.btn{
+		margin-left:-440px;
+		margin-top:300px;
+		width:400px;
+		height:65px;
+		border-radius: 5px;
+		font-size: 20px;
+	}
+	#whitebar img{
+		margin-top:40px;
+		width:483px;
+		height:30px;
+	}
+	
+	.facebook-logo img{
+		width: 15px;
+		height:25px;
+		margin-top:-40px;
+		margin-left:-450px;
+	}
+	.youtube-logo img{
+		width: 33px;
+		height:25px;
+		margin-top:15px;
+		margin-left:-470px;
+	}
+	.instagram-logo img{
+		width: 25px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-470px;
+	}
+	.snapcatch-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-480px;
+	}
+	.twitter-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-480px;
+	}
+
+	.artist_name2 img{
+		width: 219px;
+		height:21px;
+		margin-top:80px;
+		margin-left:60px;
+	}
+	.copyright{
+		width:320px;
+		height:21px;
+		margin-top:10px;
+		margin-left:80px;
+	}
+	
+}
+
+
+
+/*********** iPhone 6 **********/
+
+@media only screen and (min-width:568px) and (max-width: 667px){
+	#wrapper {
+		width: 667px;
+		height: 6050px;
+		margin: 0 auto;
+		background-image: url("../images/bg-texture.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.hero{
+		background: url(../images/artist-bg.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+  		background-repeat: no-repeat;
+		width:667px;
+	}
+	#artist {margin-top: 120px;}
+	#artist_name {margin-top: 130px;}
+	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 180px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 180px;margin-left: 15px;}
+
+	.vid{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin: 0 auto; 
+		padding-left: 160px;
+		margin-top: -110px;
+	}
+	.vid_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin: 0 auto; 
+		padding-left: 100px;
+		margin-top: -200px;
+		opacity: 0.1;
+	}
+	.info1{
+		color: white;
+		padding-left: 120px;
+		margin-top: -30px;
+		font-size: 35px;
+		font-family: myfont7; 
+	}
+	
+	#videos{padding-left: 80px;}
+	
+	.listen{
+		font-family: myfont3;
+		color: red;
+		font-size: 90px;
+		margin: 0 auto;
+		padding-left: 100px;
+		padding-top: 30px;
+	}
+	.listen_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin-left: -15px;
+		margin-top: -200px;
+		opacity: 0.1;
+	}
+	.info2{
+		color: white;
+		padding-left: 130px;
+		margin-top: -50px;
+		font-size: 35px;
+		font-family: myfont7; 
+	}
+	
+	#apple{padding-left: 175px;}
+	#logo1{padding-left: 220px; margin-top: -28px;}
+	#logo2{padding-left: 265px; margin-top: -27px;}
+	#logo3{padding-left: 305px; margin-top: -27px;}
+	.boxed{margin-left:-10px; margin-top:20px; }
+	.circle img{
+		margin-left: 200px;
+		margin-top: 500px;
+		width:100px;
+		height:110px;
+	}
+	
+	.title{font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -80px;
+		margin-left: 340px;
+	}
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -15px;
+		margin-left: 340px;
+	}
+	
+	#songs{
+		font-size: 25px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 170px;
+		cursor: pointer;
+		width:353px;
+		height:325px;
+		text-align: center; 
+    	vertical-align: middle;
+		margin-top: 10px;
+	}
+	
+
+	td{
+		padding-left: 25px;
+	}
+
+	.time{
+		margin-left: 60px;
+	}
+
+	.tour{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 90px; 
+		margin: 0 auto; 
+		padding-left: 190px;
+		margin-top: 120px;
+	}
+	.tour_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 150px; 
+		margin: 0 auto; 
+		margin-top: -200px;
+		float: left;
+		padding-left: 155px;
+		opacity: 0.1;
+	}
+	
+	#ticket1 img{
+		margin-left:90px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:30px;
+	}
+	#ticket2 img{
+		margin-left:90px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:20px;
+	}
+	#ticket3 img{
+		margin-left:-515px;
+		width:353px;
+		height:212px;
+		margin-right:100;
+		margin-top:1350px;
+	}
+	#ticket4 img{
+		margin-left:-520px;
+		width:353px;
+		height:212px;
+		margin-right:120;
+		margin-top:1895px;
+	}
+	
+	#summer1{
+		font-size: 35px;
+		margin-left:80px;
+		margin-top:10px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}	
+	#summer2{
+		font-size: 35px;
+		margin-left:90px;
+		margin-top:70px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer3{
+		font-size: 35px;
+		margin-left:-275px;
+		margin-top:1110px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+	#summer4{
+		font-size: 35px;
+		margin-left:-520px;
+		padding-top:1650px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+	}
+
+	.mySlides{
+		margin-left:-160px; 
+		padding-top:2000px;width:353px;
+		height:212px;
+		position: relative;
+		text-align: center;
+	}
+	
+	.merchandise{
+		font-family: myfont3;
+		font-size: 90px;
+		color: black;
+	  	position: absolute;
+		padding-left: 100px;
+		margin-top: -350px;
+	}
+	
+	.love{
+		font-family: myfont8;
+		font-size: 45px;
+		color: #cf2b00;
+	  	position: absolute;
+		padding-left: 170px;
+		margin-top: -220px;
+	}
+	
+	.collection{
+		font-family: myfont7;
+		font-size: 35px;
+		color: black;
+	  	position: absolute;
+		padding-left: 215px;
+		margin-top: -160px;
+	}
+	
+	.shop{
+		font-family: myfont4;
+		font-size: 60px;
+		color: black;
+	  	position: absolute;
+		padding-left: 390px;
+		margin-top: -100px;
+	}
+	
+	.tshirt{
+		margin-left:150px;
+		margin-top:100px;
+		width:400px;
+		height:350px;
+	}
+	.dot-container{
+		margin-left:-275px;
+		padding-top:2750px;
+	}
+	
+	
+	.signup{
+		font-family: myfont1;
+		font-size: 90px;
+		color: #e23000;
+	  	position: absolute;
+		padding-left: 210px;
+		margin-top: 100px;
+	}
+	
+	.phoinix{
+		font-family: myfont3;
+		font-size: 130px;
+		color: #ffffff;
+	  	position: absolute;
+		padding-left: 120px;
+		margin-top: 170px;
+	}
+	
+	.updates{
+		font-family: myfont3;
+		font-size: 130px;
+		color: #ffffff;
+	  	position: absolute;
+		padding-left: 210px;
+		margin-top: 290px;
+	}
+	
+	.emailInput{
+		margin-top: 220px;
+		height:65px;
+		min-width: 667px; 
+		box-shadow: none !important;
+		-moz-box-shadow:  none !important; 
+		text-align: center; 
+		border-radius: 5px; 		
+		background-color: #3d3d3d; 
+		border-color: #3d3d3d;
+		font-size: 20px;
+	}
+	.btn{
+		margin-left:20px;
+		margin-top:30px;
+		width:600px;
+		height:65px;
+		border-radius: 5px;
+		font-size: 20px;
+	}
+	
+	#whitebar img{margin-top:40px;width:667px;height:30px;}
+	
+	.facebook-logo img{
+		width: 15px;
+		height:25px;
+		margin-top:-40px;
+		margin-left:-440px;
+	}
+	.youtube-logo img{
+		width: 33px;
+		height:25px;
+		margin-top:15px;
+		margin-left:-420px;
+	}
+	.instagram-logo img{
+		width: 25px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-390px;
+	}
+	.snapcatch-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-365px;
+	}
+	.twitter-logo img{
+		width: 28px;
+		height:25px;
+		margin-top:30px;
+		margin-left:-325px;
+	}
+
+	.artist_name2 img{
+		width: 400px;
+		height:40px;
+		margin-top:80px;
+		margin-left:60px;
+	}
+	.copyright{
+		width:500px;
+		height:40px;
+		margin-top:10px;
+		margin-left:125px;
+		font-size: 15px;
+	}
+	
+}

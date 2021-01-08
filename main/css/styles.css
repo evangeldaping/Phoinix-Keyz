@@ -1,0 +1,209 @@
+/*===============================================================
+ Font Style
+==================================================================*/
+
+@font-face {
+    font-family: "myfont1";
+    src: url("../fonts/Moonshiner-Oblique.woff") format('woff');
+	font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont2";
+    src: url("../fonts/Moonshiner-ObliqueLines.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "myfont3";
+    src: url("../fonts/Moonshiner-Regular.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "myfont4";
+    src: url("../fonts/Moonshiner-RegularLines.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont5";
+    src: url("../fonts/moonshiner-sharpoblique-webfont.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont6";
+    src: url("../fonts/moonshiner-sharp-webfont.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont7";
+    src: url("../fonts/MyriadPro-Cond.woff") format('woff');
+ 	font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont8";
+    src: url("../fonts/Fjalla-One-regular.woff") format('woff');
+ 	font-weight: bold;
+    font-style: italic;
+}
+
+/*===============================================================
+ Hero Style
+==================================================================*/
+
+.artist {margin-top: 50px;}
+.artist_name {margin-top: 50px;}
+.facebook {margin-top: 50px;}
+.youtube {margin-top: 50px;}
+.instagram {margin-top: 50px;}
+.snapcatch {margin-top: 50px;}
+.twitter {margin-top: 50px;}
+
+.img-wrapper {
+  	display: grid;
+  	height: 100vh;
+}
+
+.img-wrapper div {
+  	grid-column: 1;
+  	grid-row: 1;
+ 	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-color: var(--gray);
+  	transition: opacity 0.1s;
+}
+
+/*===============================================================
+ Middle Style
+==================================================================*/
+
+
+.videos {
+	width: 15%;
+	height: 200px;
+	float: left;
+}
+
+.music {
+	margin-left: 15%;
+	height: 200px;
+	padding-left: 298px;
+	padding-top: 24px;
+}
+
+.summer1 {
+	color:#fff;
+}
+
+.container1 {
+	width: 890px;
+	height: 200px;
+	margin: auto;
+	padding-left: 80px;
+	padding-top: 100px;
+}
+
+.container2 {
+	width: 890px;
+	height: 200px;
+	margin: auto;
+	padding-left: 80px;
+	padding-top: 230px;
+}
+
+.container3 {
+	width: 890px;
+	height: 200px;
+	margin: auto;
+	padding-left: 80px;
+	padding-top: 200px;
+}
+
+.slideshow-container {
+	width: 890px;
+	height: 200px;
+	margin: auto;
+	padding-left: 80px;
+	padding-top: 230px;
+}
+
+.mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+}
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding-top: 270px;
+	list-style-type: none;
+	padding-left: 710px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.form-inline {padding-top: 270px;}
+
+.change::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: black;
+}
+.change:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: black;
+    opacity: 1;
+}
+.change::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: black;
+    opacity: 1;
+}
+.change:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+#inputEmail{color: black;}
+
+/*===============================================================
+ Footer Style
+==================================================================*/
+.artist_name2{padding: 70px;margin-top: -60px;}
+.facebook-logo {padding-left: 600px;margin-top: -125px;}
+.youtube-logo {padding-left: 650px;margin-top: -55px;}
+.instagram-logo {padding-left: 695px;margin-top: -55px;}
+.snapcatch-logo {padding-left: 740px;margin-top: -55px;}
+.twitter-logo {padding-left: 780px;margin-top: -55px;}
+
+/*===============================================================
+ Copyright Style
+==================================================================*/
+.copyright {
+	padding: 70px; 
+	color: #fff;
+	font-size: 10px;
+	margin-top: -60px;
+}
