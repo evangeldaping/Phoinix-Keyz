@@ -207,3 +207,68 @@
 	font-size: 10px;
 	margin-top: -60px;
 }
+
+/*===============================================================
+ Scroll effect Style
+==================================================================*/
+
+.fadeInBlockLeft,
+.fadeInBlockRight {
+  opacity: 0;
+}
+
+.animate-inLeft {
+  -webkit-animation: inLeft 600ms ease-in-out forwards;
+  display: block;
+}
+
+@-webkit-keyframes inLeft {
+  0% {
+    -webkit-transform: translateX(900px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+.animate-inRight {
+  -webkit-animation: inRight 600ms ease-in-out forwards;
+  display: block;
+}
+
+@-webkit-keyframes inRight {
+  0% {
+    -webkit-transform: translateX(-900px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+
+/*===============================================================
+ Parallax effect Style
+==================================================================*/
+
+
+
+
+.img-parallax {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
+.img-bg {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
