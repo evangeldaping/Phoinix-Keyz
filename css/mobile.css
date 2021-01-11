@@ -1,24 +1,43 @@
 
 /********** iPhone 5 **********/
 
-@media only screen and (min-width:320px) and (max-width: 568px){ 
+@media only screen and (min-width:320px) and (max-width: 568px){
+	section.parallax-1 { 
+		background-image: url("../images//artist-bg.jpg"); 
+		width: 568px;
+	  	height: 765px;
+		background-repeat: no-repeat;
+	  	background-size: cover;
+		margin: 0 auto;
+		background-attachment: fixed;
+	}
+	
 	#wrapper {
 		width: 568px;
 		height: 5250px;
 		margin: 0 auto;
+		margin-top: -700px;
 		background-image: url("../images/bg-texture.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	#artist {margin-top: 120px;}
-	#artist_name {margin-top: 130px;}
-	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
-	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
-	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 180px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 180px;margin-left: 15px;}
+	#artist {
+		margin-left: -85px;
+		margin-top: 75px;
+		width: 891px;
+	  	height: 638px;
+		position:relative; 
+		transform: translate(-15%, 0);
+	}
+
+	#artist_name {margin-top: 160px;}
+	#facebook {width: 15px;height:27px;margin-top: 170px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 170px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 170px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 200px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 200px;margin-left: 15px;}
 	
 	.vid{
 		font-family: myfont3; 
@@ -362,23 +381,42 @@
 /*********** iPhone 6 **********/
 
 @media only screen and (min-width:568px) and (max-width: 667px){
+	section.parallax-1 { 
+		background-image: url("../images//artist-bg.jpg"); 
+		width: 667px;
+	  	height: 765px;
+		background-repeat: no-repeat;
+	  	background-size: cover;
+		margin: 0 auto;
+		background-attachment: fixed;
+	}
+	
 	#wrapper {
 		width: 667px;
 		height: 5250px;
 		margin: 0 auto;
+		margin-top: -700px;
 		background-image: url("../images/bg-texture.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	#artist {margin-top: 120px;}
+	#artist {
+		margin-left: -85px;
+		margin-top: 75px;
+		width: 891px;
+	  	height: 638px;
+		position:relative; 
+		transform: translate(-15%, 0);
+	}
+	
 	#artist_name {margin-top: 130px;}
-	#facebook {width: 15px;height:27px;margin-top: 140px;margin-left: -50px;}
-	#youtube {width: 33px;height:25px;margin-top: 140px;margin-left: 10px;}
-	#instagram {width: 25px;height:25px;margin-top: 140px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 180px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 180px;margin-left: 15px;}
+	#facebook {width: 15px;height:27px;margin-top: 150px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 150px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 150px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 190px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 190px;margin-left: 15px;}
 
 	.vid{
 		font-family: myfont3; 

@@ -250,25 +250,19 @@
  Parallax effect Style
 ==================================================================*/
 
-
-
-
-.img-parallax {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%,0);
-  pointer-events: none
+/*
+section.parallax-1 { 
+	background-image: url("../images//artist-bg.jpg"); 
+	position: absolute;
+	width: 1000px;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	top: 0;
+	transform: translate(-50%,0);
+	margin: 0 auto;
 }
+*/
 
-.img-bg {
-  width: 100vmax;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%,0);
-  pointer-events: none
-}
 
