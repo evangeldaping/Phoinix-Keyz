@@ -207,3 +207,62 @@
 	font-size: 10px;
 	margin-top: -60px;
 }
+
+/*===============================================================
+ Scroll effect Style
+==================================================================*/
+
+.fadeInBlockLeft,
+.fadeInBlockRight {
+  opacity: 0;
+}
+
+.animate-inLeft {
+  -webkit-animation: inLeft 600ms ease-in-out forwards;
+  display: block;
+}
+
+@-webkit-keyframes inLeft {
+  0% {
+    -webkit-transform: translateX(900px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+.animate-inRight {
+  -webkit-animation: inRight 600ms ease-in-out forwards;
+  display: block;
+}
+
+@-webkit-keyframes inRight {
+  0% {
+    -webkit-transform: translateX(-900px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+
+/*===============================================================
+ Parallax effect Style
+==================================================================*/
+
+/*
+section.parallax-1 { 
+	background-image: url("../images//artist-bg.jpg"); 
+	position: absolute;
+	width: 1000px;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	top: 0;
+	transform: translate(-50%,0);
+	margin: 0 auto;
+}
+*/
+
+

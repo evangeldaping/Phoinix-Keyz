@@ -25,7 +25,7 @@
 
 	#artist {
 		margin-left: -85px;
-		margin-top: 75px;
+		margin-top: 30px;
 		width: 891px;
 	  	height: 638px;
 		position:relative; 
@@ -33,11 +33,11 @@
 	}
 
 	#artist_name {margin-top: 160px;}
-	#facebook {width: 15px;height:27px;margin-top: 170px;margin-left: -50px;}
-	#youtube {width: 33px;height:25px;margin-top: 170px;margin-left: 10px;}
-	#instagram {width: 25px;height:25px;margin-top: 170px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 200px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 200px;margin-left: 15px;}
+	#facebook {width: 15px;height:27px;margin-top: 180px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 180px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 180px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 210px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 210px;margin-left: 15px;}
 	
 	.vid{
 		font-family: myfont3; 
@@ -404,19 +404,19 @@
 
 	#artist {
 		margin-left: -85px;
-		margin-top: 75px;
+		margin-top: 30px;
 		width: 891px;
 	  	height: 638px;
 		position:relative; 
 		transform: translate(-15%, 0);
 	}
 	
-	#artist_name {margin-top: 130px;}
-	#facebook {width: 15px;height:27px;margin-top: 150px;margin-left: -50px;}
-	#youtube {width: 33px;height:25px;margin-top: 150px;margin-left: 10px;}
-	#instagram {width: 25px;height:25px;margin-top: 150px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 190px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 190px;margin-left: 15px;}
+	#artist_name {margin-top: 160px;}
+	#facebook {width: 15px;height:27px;margin-top: 180px;margin-left: -50px;}
+	#youtube {width: 33px;height:25px;margin-top: 180px;margin-left: 10px;}
+	#instagram {width: 25px;height:25px;margin-top: 180px;margin-left: 60px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 210px;margin-left: -35px;}
+	#twitter {width: 28px;height:25px;margin-top: 210px;margin-left: 15px;}
 
 	.vid{
 		font-family: myfont3; 
