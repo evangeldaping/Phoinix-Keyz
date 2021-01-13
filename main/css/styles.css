@@ -66,7 +66,7 @@
 .twitter {margin-top: 50px;}
 
 .img-wrapper {
-  	display: grid;
+/*  	display: grid;*/
   	height: 100vh;
 }
 
@@ -244,25 +244,3 @@
     -webkit-transform: translateX(0px);
   }
 }
-
-
-/*===============================================================
- Parallax effect Style
-==================================================================*/
-
-/*
-section.parallax-1 { 
-	background-image: url("../images//artist-bg.jpg"); 
-	position: absolute;
-	width: 1000px;
-	height: 900px;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: contain;
-	top: 0;
-	transform: translate(-50%,0);
-	margin: 0 auto;
-}
-*/
-
-

@@ -28,17 +28,17 @@
 	#artist {
 		margin-left: 500px;
 		margin-top: 75px;
-		width: 100%;
+		width: 1015px;
 		height: 100%;
 		position:relative; 
 		transform: translate(-50%, 0);
 	}
-	#artist_name {margin-top: 150px;}
-	#facebook {width: 10px;height:25px;margin-top: 160px;margin-left: -15px;}
-	#youtube {width: 25px;height:20px;margin-top: 160px;margin-left: -10px;}
-	#instagram {width: 20px;height:20px;margin-top: 160px;margin-left: 2px;}
-	#snapcatch {width: 20px;height:20px;margin-top: 160px;margin-left: 10px;}
-	#twitter {width: 20px;height:20px;margin-top: 160px;margin-left: 15px;}
+	#artist_name {margin-top: 180px;margin-left: -20px;}
+	#facebook {width: 10px;height:25px;margin-top: 190px;margin-left: -35px;}
+	#youtube {width: 25px;height:20px;margin-top: 190px;margin-left: -25px;}
+	#instagram {width: 20px;height:20px;margin-top: 190px;margin-left: -10px;}
+	#snapcatch {width: 20px;height:20px;margin-top: 190px;margin-left: 1px;}
+	#twitter {width: 20px;height:20px;margin-top: 190px;margin-left: 4px;}
 
 	.vid{
 		font-family: myfont3; 
@@ -78,7 +78,7 @@
 		font-family: myfont3; 
 		color: red; 
 		font-size: 90px; 
-		margin-left: 380px;
+		margin-left: 510px;
 		margin-top: -460px;
 		opacity: 0.1;
 	}
@@ -240,20 +240,6 @@
 		position:relative;
 		bottom: 445px;
 	}
-	
-/*
-	.get {
-	position: relative;
-color: black;
-opacity: 0.7;
-		margin-bottom: 120px;
-		height: 100px;
-		background-color: red;
-		text-decoration-line: none
-	
-
-	}
-*/
 	
 	#andrew {font-size: 15px; position:relative;bottom: 20px;}
 	#detroit {font-size: 15px;position:relative;bottom: 20px;}
@@ -419,7 +405,7 @@ opacity: 0.7;
 
 	.artist_name2 img{
 		width: 280px;
-		height:40px;
+		height:25px;
 		margin-left:140px;
 		position:relative;
 		bottom: 490px;

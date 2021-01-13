@@ -5,7 +5,7 @@
 
 /********** iPad **********/
 
-@media only screen and (min-width:667px) and (max-width: 1024px){
+@media only screen and (min-width:667px) and (max-width: 1025px){
   #wrapper {
 		width: 1024px;
 		height: 6050px;
