@@ -7,8 +7,7 @@
 	
 	section.parallax-1 { 
 		background-image: url("../images//artist-bg.jpg"); 
-		width: 1680px;
-	  	height: 765px;
+		width: 1440px;
 		background-repeat: no-repeat;
 	  	background-size: cover;
 		margin: 0 auto;
@@ -16,8 +15,8 @@
 	}
 	
 	#wrapper {
-		width: 1680px;
-		height: 1700px;
+		width: 1440px;
+		height: 2700px;
 		margin: 0 auto;
 		margin-top: -930px;
 		background-image: url("../images/bg-texture.jpg");
@@ -27,116 +26,152 @@
 	}
 	
 	#artist {
-		margin-left: 500px;
+		margin-left: 555px;
 		margin-top: -10px;
-		width: 100%;
+		width: 1440px;
 		height: 100%;
 		position:relative; 
 		transform: translate(-50%, 0);
 	}
 	
-	#artist_name {
-		margin-top: 80px;
+	#artist_name{
+		margin-top: 170px;
 		margin-left: -30px;
+		height: 30px;
+		width:  325px;
 	}
-	#facebook {width: 10px;height:25px;margin-top: 160px;margin-left: -15px;}
-	#youtube {width: 25px;height:20px;margin-top: 160px;margin-left: -10px;}
-	#instagram {width: 20px;height:20px;margin-top: 160px;margin-left: 2px;}
-	#snapcatch {width: 20px;height:20px;margin-top: 160px;margin-left: 10px;}
-	#twitter {width: 20px;height:20px;margin-top: 160px;margin-left: 15px;}
+	
+	#facebook {width: 25px;height:35px;margin-top: 200px;margin-left: -75px;}
+	#youtube {width: 40px;height:35px;margin-top: 200px;margin-left: -45px;}
+	#instagram {width: 35px;height:35px;margin-top: 200px;margin-left: -10px;}
+	#snapcatch {width: 30px;height:35px;margin-top: 200px;margin-left: 15px;}
+	#twitter {width: 30px;height:35px;margin-top: 200px;margin-left: 30px;}
 
 	.vid{
 		font-family: myfont3; 
 		color: red; 
-		font-size: 45px; 
-		margin-left:160px;
+		font-size: 80px; 
+		margin-left: 20px;
 		position: relative;
 		bottom: 80px;
 	}
+	
 	.vid_big{
 		font-family: myfont3; 
 		color: red; 
-		font-size: 90px; 
-		padding-left: 115px;
-		margin-top: -210px;
+		font-size: 150px; 
+		margin-left: -40px;
+		margin-top: -280px;
 		opacity: 0.1;
 	}
+	
 	.info1{
 		color: white;
-		margin-left: 130px;
-		margin-top: -30px;
-		font-size: 18px;
+		margin-left: -20px;
+		margin-top: -50px;
+		font-size: 30px;
 		font-family: myfont7; 
 	}
 	
-	#videos{padding-left: 10px;}
+	#videos img{
+		margin-top: 5px;
+		margin-left: -195px;
+		height: 100%;
+		width: 550px;
+	}
 	
 	.listen{
 		font-family: myfont3;
 		color: red;
-		font-size: 45px;
+		font-size: 80px;
 		padding-left: 510px;
 		position: relative;
-		bottom: 332px;
+		margin-top: -540px;
 	}
+	
 	.listen_big{
 		font-family: myfont3; 
 		color: red; 
-		font-size: 90px; 
-		margin-left: 380px;
-		margin-top: -460px;
+		font-size: 150px; 
+		margin-left: 525px;
+		margin-top: -200px;
 		opacity: 0.1;
 	}
+	
 	.info2{
 		color: white;
-		padding-left: 520px;
-		font-size: 18px;
+		padding-left: 540px;
+		font-size: 30px;
 		font-family: myfont7; 
 		position: relative;
-		bottom: 32px;
+		margin-top: -55px;
 	}
 	
-	#apple{padding-left: 530px;position: relative;bottom: 240px;}
-	#logo1{padding-left: 560px;position: relative;bottom: 268px;}
-	#logo2{padding-left: 590px;position: relative;bottom: 295px;}
-	#logo3{padding-left: 620px;position: relative;bottom: 322px;}
+	#apple img{
+		padding-left: 550px;
+		min-width: 40px;
+		min-height: 40px;
+	}
+	
+	#logo1 img{
+		padding-left: 600px; 
+		margin-top: -70px;
+		min-width: 40px;
+		min-height: 40px;
+	}
+	
+	#logo2 img{
+		padding-left: 655px; 
+		margin-top: -120px;
+		min-width: 40px;
+		min-height: 40px;
+	}
+	
+	#logo3 img{
+		padding-left: 710px; 
+		margin-top: -165px;
+		min-width: 40px;
+		min-height: 40px;
+	}
 	
 	.boxed{margin-left:-10px; margin-top:20px; }
 	
 	.circle img{
-		margin-left: 600px;
-		width:55px;
-		height:55px;
+		margin-left: 830px;
+		width:90px;
+		height:90px;
 		position: relative;
-		bottom: 70px;
+		margin-top: 20px;
 	}
 	
 	.title{
-		font-size: 20px;
+		font-size: 30px;
 		color: white;
 		font-family: myfont7;
-		margin-top: -110px;
-		margin-left: 670px;
+		margin-top: -55px;
+		margin-left: 930px;
 	}
+	
 	.desc{
 		color: white;
 		font-family: myfont7;
 		margin-top: -30px;
-		margin-left: 670px;
+		margin-left: 930px;
+		font-size: 20px;
 	}
 	
 	#songs{
-		font-size: 18px;
+		font-size: 20px;
 		color: white;
 		font-family: myfont7;
 		border: 1px solid white;
-		margin-left: 580px;
+		margin-left: 800px;
 		cursor: pointer;
-		width:300px;
-		height:100px;
+		width:450px;
+		height:215px;
 		text-align: center;
 		vertical-align: middle;
-		margin-top: -30px;
+		margin-top: -10px;
 	}
 	
 
@@ -151,122 +186,121 @@
 	.tour{
 		font-family: myfont3; 
 		color: red; 
-		font-size: 45px; 
+		font-size: 80px; 
 		margin: 0 auto; 
 		padding-left: 335px;
 		position:  relative;
-		bottom: 75px;
+		margin-top: 30px;
 	}
+	
 	.tour_big{
 		font-family: myfont3; 
 		color: red; 
-		font-size: 90px; 
+		font-size: 150px; 
 		margin: 0 auto; 
 		float: left;
-		padding-left: 305px;
+		padding-left: 290px;
 		opacity: 0.1;
 		position:  relative;
-		bottom: 190px;
+		margin-top: -190px;
 	}
 	
 	#ticket1 img{
 		position:relative;
 		bottom: 360px;
-		margin-left:225px;
-		width:17%;
-		height:17%;
-		margin-right:100;
-		margin-top:100px;
+		margin-left:115px;
+		width:30%;
+		height:25%;
+		margin-top:200px;
 	}
+	
 	#ticket2 img{
 		position:relative;
 		bottom: 615px;
-		margin-left:225px;
-		width:17%;
-		height:17%;
-		margin-right:100;
-		margin-top:100px;
+		margin-left: 725px;
+		width: 30%;
+		height: 25%;
+		margin-top:410px;
 	}
+	
 	#ticket3 img{
 		position:relative;
 		bottom: 500px;
-		margin-left:210px;
-		width:140px;
-		height:107px;
-		margin-right:100;
-		margin-top:100px;
+		margin-left: -120px;
+		width: 245px;
+		height: 189px;
+		margin-top: 800px;
 	}
+	
 	#ticket4 img{
 		position:relative;
 		bottom: 750px;
-		margin-left:210px;
-		width:140px;
-		height:107px;
-		margin-right:100;
-		margin-top:100px;
+		margin-left: 739px;
+		width: 245px;
+		height: 189px;
+		margin-top: 61px;
 	}
 	
 	#summer1{
-		font-size: 18px;
-		margin-left:0px;
+		font-size: 30px;
+		margin-left: -200px;
 		width:353px;
 		height:212px;
 		color: white;
 		font-family: myfont7;
 		position:relative;
-		bottom: 190px;
+		margin-top: -10px;
 	}	
+	
 	#summer2{
-		font-size: 18px;
-		margin-left: 10px;
+		font-size: 30px;
+		margin-left: 440px;
 		width:353px;
 		height:212px;
 		color: white;
 		font-family: myfont7;
 		position:relative;
-		bottom: 310px;
+		margin-top: -550px;
 	}
+	
 	#summer3{
-		font-size: 18px;
-		margin-left: 0px;
+		font-size: 30px;
+		margin-left: -200px;
 		width:353px;height:212px;
 		color: white;
 		font-family: myfont7;
 		position:relative;
-		bottom: 190px;
+		margin-top: 290px;
 	}
+	
 	#summer4{
-		font-size: 18px;
-		margin-left: 10px;
+		font-size: 30px;
+		margin-left: 80px;
 		width:353px;
 		height:212px;
 		color: white;
 		font-family: myfont7;
 		position:relative;
-		bottom: 445px;
+		margin-top: 290px;
 	}
 	
-/*
-	.get {
-	position: relative;
-color: black;
-opacity: 0.7;
-		margin-bottom: 120px;
-		height: 100px;
-		background-color: red;
-		text-decoration-line: none
-	
-
+	#andrew {
+		font-size: 20px; 
+		position:relative;
+		bottom: -15px;
 	}
-*/
 	
-	#andrew {font-size: 15px; position:relative;bottom: 20px;}
-	#detroit {font-size: 15px;position:relative;bottom: 20px;}
+	#detroit {
+		font-size: 20px;
+		position:relative;
+		bottom: -15px;
+	}
 	
 	.white{
-		width:520px;
-		height:350px;
-		margin-left:-140px; 
+		width:750px;
+		height:550px;
+		margin-left:-379px; 
+		margin-top: 430px;
 	}
 
 	.mySlides{
@@ -279,171 +313,664 @@ opacity: 0.7;
 	
 	.merchandise{
 		font-family: myfont3;
-		font-size: 90px;
+		font-size: 130px;
 		color: black;
 	  	position:relative;
-		bottom: 355px;
-		margin-left: -150px;
+		margin-top: -520px;
+		margin-left: -350px;
 	}
 	
 	.love{
 		font-family: myfont8;
-		font-size: 45px;
+		font-size: 60px;
 		color: #cf2b00;
 	  	position:relative;
-		bottom: 355px;
-		margin-left: -150px;
+		bottom: 10px;
+		margin-left: -350px;
 	}
 	
 	.collection{
 		font-family: myfont7;
-		font-size: 35px;
+		font-size: 50px;
 		color: black;
 	  	position:relative;
-		bottom: 355px;
-		margin-left: -150px;
+		bottom: 5px;
+		margin-left: -350px;
 	}
 	
 	.shop{
 		font-family: myfont4;
-		font-size: 60px;
+		font-size: 90px;
 		color: black;
 	  	position:relative;
-		bottom: 355px;
-		margin-left: 140px;
+		bottom: 5px;
+		margin-left: 70px;
 	}
 	
 	.tshirt{
 		margin-left:500px;
-		width:55%;
-		height:55%;
+		width:85%;
+		height:85%;
 		position:relative;
-		bottom: 670px;
+		bottom: 470px;
 	}
+	
 	.dot-container{
-		margin-left:100px;
+		margin-left: 500px;
 		position:relative;
-		bottom: 70px;
+ 		font-size: 170%;
+		bottom: -500px;
 	}
 	
 	
 	.signup{
 		font-family: myfont1;
-		font-size: 45px;
+		font-size: 80px;
 		color: #e23000;
 	  	position:relative;
-		bottom: 10px;
-		margin-left: 435px;
+		margin-top: 590px;
+		margin-left: 600px;
 	}
 	
 	.phoinix{
 		font-family: myfont3;
-		font-size: 90px;
+		font-size: 130px;
 		color: #ffffff;
 	  	position:relative;
 		bottom: 50px;
-		margin-left: 235px;
+		margin-left: 340px;
 	}
 	
 	.updates{
 		font-family: myfont3;
-		font-size: 90px;
+		font-size: 130px;
 		color: #ffffff;
-	  	position:relative;
-		bottom: 200px;
-		margin-left: 580px;
+	  	position: relative;
+		bottom: 260px;
+		margin-left: 830px;
 	}
 	
 	.emailInput{
-		height:50px;
-		min-width: 600px; 
+		height: 60px;
+		min-width: 850px; 
 		box-shadow: none !important;
 		-moz-box-shadow:  none !important; 
 		text-align: center; 
 		border-radius: 5px; 		
 		background-color: #3d3d3d; 
 		border-color: #3d3d3d;
-		font-size: 20px;
-		position:relative;
-		bottom: 470px;
-		margin-left:90px;
+		font-size: 30px;
+		position: relative;
+		bottom: 500px;
+		margin-left: 150px;
 	}
+	
 	.btn{
-		width:225px;
-		height:50px;
+		width: 325px;
+		height: 60px;
 		border-radius: 5px;
-		font-size: 18px;
+		font-size: 30px;
 		position:relative;
-		bottom: 520px;
-		margin-left: 710px;
+		bottom: 560px;
+		margin-left: 1020px;
 	}
 	
 	#whitebar img{
-		margin-top:40px;
-		width:1024px;
-		height:30px;
-		position:relative;
+		margin-top: 40px;
+		width: 1440px;
+		height: 60px;
+		position: relative;
 		bottom: 520px;
 	}
 	
 	.facebook-logo img{
-		width: 15px;
-		height:25px;
-		margin-left:140px;
-		position:relative;
+		width: 30px;
+		height: 40px;
+		margin-left: 440px;
+		position: relative;
 		bottom: 460px;
 	}
+	
 	.youtube-logo img{
-		width: 33px;
-		height:25px;
-		margin-left:120px;
-		position:relative;
+		width: 40px;
+		height: 40px;
+		margin-left: 450px;
+		position: relative;
+		bottom: 445px;
+	}
+	
+	.instagram-logo img{
+		width: 40px;
+		height: 40px;
+		margin-left: 480px;
+		position: relative;
 		bottom: 430px;
 	}
-	.instagram-logo img{
-		width: 25px;
-		height:25px;
-		margin-left:130px;
-		position:relative;
-		bottom: 401px;
-	}
+	
 	.snapcatch-logo img{
-		width: 28px;
-		height:25px;
-		margin-left:130px;
-		position:relative;
-		bottom: 373px;
+		width: 40px;
+		height: 40px;
+		margin-left: 500px;
+		position: relative;
+		bottom: 415px;
 	}
+	
 	.twitter-logo img{
-		width: 28px;
-		height:25px;
-		margin-left:130px;
-		position:relative;
-		bottom: 343px;
+		width: 40px;
+		height: 40px;
+		margin-left: 520px;
+		position: relative;
+		bottom: 400px;
 	}
 
 	.artist_name2 img{
-		width: 280px;
+		width: 520px;
 		height:40px;
 		margin-left:140px;
 		position:relative;
-		bottom: 490px;
+		bottom: 480px;
 	}
+	
 	.copyright{
 		width:500px;
 		height:40px;
 		margin-left:140px;
-		font-size: 10px;
+		font-size: 18px;
 		position:relative;
-		bottom: 350px;
+		bottom: 400px;
 	}
   
 }
 
-@media only screen and (min-width:1080px) and (max-width: 1920px){
+/*//////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width:1680px) and (max-width: 1920px){
  
+	
+	section.parallax-1 { 
+		background-image: url("../images//artist-bg.jpg"); 
+		width: 1680px;
+		background-repeat: no-repeat;
+	  	background-size: cover;
+		margin: 0 auto;
+		background-attachment: fixed;
+	}
+	
+	#wrapper {
+		width: 1680px;
+		height: 3050px;
+		margin: 0 auto;
+		margin-top: -960px;
+		background-image: url("../images/bg-texture.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	#artist {
+		margin-left: 555px;
+		margin-top: -10px;
+		width: 1680px;
+		height: 100%;
+		position:relative; 
+		transform: translate(-50%, 0);
+	}
+	
+	#artist_name{
+		margin-top: 260px;
+		margin-left: -30px;
+		height: 40px;
+		width:  350px;
+	}
+	
+	#facebook {width: 25px;height:35px;margin-top: 295px;margin-left: -75px;}
+	#youtube {width: 40px;height:35px;margin-top: 295px;margin-left: -45px;}
+	#instagram {width: 35px;height:35px;margin-top: 295px;margin-left: -10px;}
+	#snapcatch {width: 30px;height:35px;margin-top: 295px;margin-left: 15px;}
+	#twitter {width: 30px;height:35px;margin-top: 295px;margin-left: 30px;}
+
+	.vid{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 100px; 
+		margin-left: -50px;
+		position: relative;
+		bottom: 80px;
+	}
+	
+	.vid_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 170px; 
+		margin-left: -115px;
+		margin-top: -310px;
+		opacity: 0.1;
+	}
+	
+	.info1{
+		color: white;
+		margin-left: -140px;
+		margin-top: -50px;
+		font-size: 50px;
+		font-family: myfont7; 
+	}
+	
+	#videos img{
+		margin-top: 5px;
+		margin-left: -315px;
+		height: 100%;
+		width: 675px;
+	}
+	
+	.listen{
+		font-family: myfont3;
+		color: red;
+		font-size: 100px;
+		margin-right: -100px;
+		position: relative;
+		bottom: 660px;
+		float: right;
+	}
+	
+	.listen_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 170px; 
+		margin-left: 590px;
+		position: relative;
+		bottom: 890px;
+		opacity: 0.1;
+	}
+	
+	.info2{
+		color: white;
+		float: right;
+		margin-right: -110px;
+		font-size: 50px;
+		font-family: myfont7; 
+		position: relative;
+		bottom: 950px;
+	}
+	
+	#apple img{
+		padding-left: 580px;
+		margin-top: -1900px;
+		min-width: 60px;
+		min-height: 60px;
+	}
+	
+	#logo1 img{
+		padding-left: 660px; 
+		margin-top: -1950px;
+		min-width: 60px;
+		min-height: 60px;
+	}
+	
+	#logo2 img{
+		padding-left: 745px; 
+		margin-top: -2000px;
+		min-width: 60px;
+		min-height: 60px;
+	}
+	
+	#logo3 img{
+		padding-left: 840px; 
+		margin-top: -2045px;
+		min-width: 60px;
+		min-height: 60px;
+	}
+	
+	.boxed{margin-left:-10px; margin-top:20px; }
+	
+	.circle img{
+		margin-left: 960px;
+		width:110px;
+		height:110px;
+		position: relative;
+		margin-top: 100px;
+	}
+	
+	.title{
+		font-size: 50px;
+		color: white;
+		font-family: myfont7;
+		margin-top: -100px;
+		margin-left: 1080px;
+	}
+	
+	.desc{
+		color: white;
+		font-family: myfont7;
+		margin-top: -30px;
+		margin-left: 1080px;
+		font-size: 30px;
+	}
+	
+	#songs{
+		font-size: 30px;
+		color: white;
+		font-family: myfont7;
+		border: 1px solid white;
+		margin-left: 935px;
+		cursor: pointer;
+		width:550px;
+		height:145px;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: -770px;
+	}
+	
+
+	td{
+		padding-left: 25px;
+	}
+
+	.time{
+		margin-left: 60px;
+	}
+
+	.tour{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 100px; 
+		margin: 0 auto; 
+		padding-left: 335px;
+		position:  relative;
+		margin-top: 30px;
+	}
+	
+	.tour_big{
+		font-family: myfont3; 
+		color: red; 
+		font-size: 170px; 
+		margin: 0 auto; 
+		float: left;
+		padding-left: 290px;
+		opacity: 0.1;
+		position:  relative;
+		margin-top: -570px;
+	}
+	
+	#ticket1 img{
+		position:relative;
+		bottom: 360px;
+		margin-left: 80px;
+		width: 35%;
+		height:25%;
+		margin-top: 60px;
+	}
+	
+	#ticket2 img{
+		position:relative;
+		bottom: 615px;
+		margin-left: 845px;
+		width: 35%;
+		height: 25%;
+		margin-top: 315px;
+	}
+	
+	#ticket3 img{
+		position:relative;
+		bottom: 500px;
+		margin-left: -157px;
+		width: 285px;
+		height: 217px;
+		margin-top: 540px;
+	}
+	
+	#ticket4 img{
+		position:relative;
+		bottom: 750px;
+		margin-left: 853px;
+		width: 285px;
+		height: 217px;
+		margin-top: 40px;
+	}
+	
+	#summer1{
+		font-size: 44px;
+		margin-left: -320px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		margin-top: 35px;
+	}	
+	
+	#summer2{
+		font-size: 44px;
+		margin-left: 460px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		margin-top: -590px;
+	}
+	
+	#summer3{
+		font-size: 44px;
+		margin-left: -305px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		margin-top: 26px;
+	}
+	
+	#summer4{
+		font-size: 44px;
+		margin-left: 95px;
+		width:353px;
+		height:212px;
+		color: white;
+		font-family: myfont7;
+		position:relative;
+		margin-top: 30px;
+	}
+	
+	.andrew1 {font-size: 30px;position:relative;bottom: 15px;}	
+	.detroit1 {font-size: 30px;position:relative;bottom: 20px;}
+	
+	.andrew2 {font-size: 30px;position:relative;bottom: 5px;}	
+	.detroit2 {font-size: 30px;position:relative;bottom: 110px;}
+	
+	.andrew3 {font-size: 30px;position:relative;bottom: 15px;}	
+	.detroit3 {font-size: 30px;position:relative;bottom: 20px;}
+	
+	.andrew4 {font-size: 30px;position:relative;bottom: 5px;}	
+	.detroit4 {font-size: 30px;position:relative;bottom: 10px;}
+	
+	.white{
+		width: 840px;
+		height:550px;
+		margin-left:-465px; 
+		margin-top: 530px;
+	}
+
+	.mySlides{
+		margin-left:-150px; 
+		width:650px;
+		height:212px;
+		position:relative;
+		bottom: 145px;
+	}
+	
+	.merchandise{
+		font-family: myfont3;
+		font-size: 150px;
+		color: black;
+	  	position:relative;
+		margin-top: -550px;
+		margin-left: -490px;
+	}
+	
+	.love{
+		font-family: myfont8;
+		font-size: 75px;
+		color: #cf2b00;
+	  	position:relative;
+		bottom: 20px;
+		margin-left: -470px;
+	}
+	
+	.collection{
+		font-family: myfont7;
+		font-size: 60px;
+		color: black;
+	  	position:relative;
+		bottom: 25px;
+		margin-left: -470px;
+	}
+	
+	.shop{
+		font-family: myfont4;
+		font-size: 100px;
+		color: black;
+	  	position:relative;
+		bottom: 50px;
+		margin-left: -5px;
+	}
+	
+	.tshirt{
+		margin-left:530px;
+		width:90%;
+		height:90%;
+		position:relative;
+		bottom: 550px;
+	}
+	
+	.dot-container{
+		margin-left: 790px;
+		position:relative;
+ 		font-size: 190%;
+		bottom: -590px;
+	}
+	
+	
+	.signup{
+		font-family: myfont1;
+		font-size: 100px;
+		color: #e23000;
+	  	position:relative;
+		margin-top: 660px;
+		margin-left: 670px;
+	}
+	
+	.phoinix{
+		font-family: myfont3;
+		font-size: 150px;
+		color: #ffffff;
+	  	position:relative;
+		bottom: 50px;
+		margin-left: 390px;
+	}
+	
+	.updates{
+		font-family: myfont3;
+		font-size: 150px;
+		color: #ffffff;
+	  	position: relative;
+		bottom: 290px;
+		margin-left: 950px;
+	}
+	
+	.emailInput{
+		height: 70px;
+		min-width: 990px; 
+		box-shadow: none !important;
+		-moz-box-shadow:  none !important; 
+		text-align: center; 
+		border-radius: 5px; 		
+		background-color: #3d3d3d; 
+		border-color: #3d3d3d;
+		font-size: 40px;
+		position: relative;
+		bottom: 500px;
+		margin-left: 150px;
+	}
+	
+	.btn{
+		width: 450px;
+		height: 70px;
+		border-radius: 5px;
+		font-size: 40px;
+		position:relative;
+		bottom: 570px;
+		margin-left: 1160px;
+	}
+	
+	#whitebar img{
+		margin-top: 40px;
+		width: 1680px;
+		height: 70px;
+		position: relative;
+		bottom: 520px;
+	}
+	
+	.facebook-logo img{
+		width: 40px;
+		height: 50px;
+		margin-left: 580px;
+		position: relative;
+		bottom: 450px;
+	}
+	
+	.youtube-logo img{
+		width: 50px;
+		height: 50px;
+		margin-left: 620px;
+		position: relative;
+		bottom: 445px;
+	}
+	
+	.instagram-logo img{
+		width: 50px;
+		height: 50px;
+		margin-left: 670px;
+		position: relative;
+		bottom: 440px;
+	}
+	
+	.snapcatch-logo img{
+		width: 50px;
+		height: 50px;
+		margin-left: 720px;
+		position: relative;
+		bottom: 435px;
+	}
+	
+	.twitter-logo img{
+		width: 50px;
+		height: 50px;
+		margin-left: 770px;
+		position: relative;
+		bottom: 430px;
+	}
+
+	.artist_name2 img{
+		width: 620px;
+		height: 40px;
+		margin-left: 160px;
+		position: relative;
+		bottom: 480px;
+	}
+	
+	.copyright{
+		width: 580px;
+		height:40px;
+		margin-left:155px;
+		font-size: 22px;
+		position:relative;
+		bottom: 450px;
+	}
+  
 }
 
-@media only screen and (min-width:1440px) and (max-width: 2560px){
+/*//////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width:1920px) and (max-width: 2560px){
   
 }

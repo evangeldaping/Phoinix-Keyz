@@ -73,7 +73,7 @@ $(window).scroll(function() {
     if (isVisible(this)) {
       $(this).animate({
         'opacity': '1'
-      }, 1000);
+      }, 2000);
     } else {
         $(this).css({
         'opacity': '0'
@@ -88,7 +88,7 @@ $(window).scroll(function() {
     if (isVisible(this)) {
       $(this).animate({
         'opacity': '1'
-      }, 1000);
+      }, 2000);
     } else {
         $(this).css({
         'opacity': '0'
