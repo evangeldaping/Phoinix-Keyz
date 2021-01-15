@@ -2,6 +2,7 @@
 /********** iPhone 5 **********/
 
 @media only screen and (min-width:320px) and (max-width: 568px){
+	
 	section.parallax-1 { 
 		background-image: url("../images//artist-bg.jpg"); 
 		width: 568px;
@@ -25,19 +26,19 @@
 
 	#artist{
 		margin-left: -50px;
-		margin-top: 30px;
+		margin-top: 90px;
 		width: 630px;
 	  	height: 600px;
 		position:relative; 
 		transform: translate(-5%, 0);
 	}
 
-	#artist_name {margin-top: 130px;margin-left: -15px;}
-	#facebook {width: 15px;height:27px;margin-top: 160px;margin-left: -60px;}
-	#youtube {width: 33px;height:25px;margin-top: 160px;margin-left: 20px;}
-	#instagram {width: 25px;height:25px;margin-top: 160px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 200px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 200px;margin-left: 15px;}
+	#artist_name {margin-top: 190px;margin-left: -15px;}
+	#facebook {width: 15px;height:27px;margin-top: 210px;margin-left: -60px;}
+	#youtube {width: 33px;height:25px;margin-top: 210px;margin-left: -5px;}
+	#instagram {width: 25px;height:25px;margin-top: 210px;margin-left: 50px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 250px;margin-left: -45px;}
+	#twitter {width: 28px;height:25px;margin-top: 250px;margin-left: 5px;}
 	
 	.vid{
 		font-family: myfont3; 
@@ -76,7 +77,7 @@
 		font-family: myfont3; 
 		color: red; 
 		font-size: 150px; 
-		margin-left: -100px;
+		padding-left: 50px;
 		margin-top: -200px;
 		opacity: 0.1;
 	}
@@ -326,7 +327,7 @@
 	}
 	#whitebar img{
 		margin-top:40px;
-		width:483px;
+		width:568px;
 		height:30px;
 	}
 	
@@ -381,9 +382,10 @@
 /*********** iPhone 6 **********/
 
 @media only screen and (min-width:568px) and (max-width: 667px){
+	
 	section.parallax-1 { 
 		background-image: url("../images//artist-bg.jpg"); 
-		width: 568px;
+		width: 667px;
 	  	height: 765px;
 		background-repeat: no-repeat;
 	  	background-size: cover;
@@ -392,7 +394,7 @@
 	}
 	
 	#wrapper {
-		width: 568px;
+		width: 667px;
 		height: 5250px;
 		margin: 0 auto;
 		margin-top: -700px;
@@ -402,28 +404,28 @@
 		background-size: cover;
 	}
 
-	#artist {
-		margin-left: -85px;
-		margin-top: 30px;
-		width: 891px;
-	  	height: 638px;
+	#artist{
+		margin-left: -50px;
+		margin-top: 90px;
+		width: 667px;
+	  	height: 600px;
 		position:relative; 
-		transform: translate(-15%, 0);
+		transform: translate(-5%, 0);
 	}
-	
-	#artist_name {margin-top: 160px;}
-	#facebook {width: 15px;height:27px;margin-top: 180px;margin-left: -50px;}
-	#youtube {width: 33px;height:25px;margin-top: 180px;margin-left: 10px;}
-	#instagram {width: 25px;height:25px;margin-top: 180px;margin-left: 60px;}
-	#snapcatch {width: 28px;height:25px;margin-top: 210px;margin-left: -35px;}
-	#twitter {width: 28px;height:25px;margin-top: 210px;margin-left: 15px;}
 
+	#artist_name {margin-top: 190px;margin-left: -15px;}
+	#facebook {width: 15px;height:27px;margin-top: 210px;margin-left: -60px;}
+	#youtube {width: 33px;height:25px;margin-top: 210px;margin-left: -5px;}
+	#instagram {width: 25px;height:25px;margin-top: 210px;margin-left: 50px;}
+	#snapcatch {width: 28px;height:25px;margin-top: 250px;margin-left: -45px;}
+	#twitter {width: 28px;height:25px;margin-top: 250px;margin-left: 5px;}
+	
 	.vid{
 		font-family: myfont3; 
 		color: red; 
 		font-size: 90px; 
 		margin: 0 auto; 
-		padding-left: 160px;
+		padding-left: 90px;
 		margin-top: -110px;
 	}
 	.vid_big{
@@ -431,67 +433,61 @@
 		color: red; 
 		font-size: 150px; 
 		margin: 0 auto; 
-		padding-left: 100px;
+		padding-left: 30px;
 		margin-top: -200px;
 		opacity: 0.1;
 	}
 	.info1{
 		color: white;
-		padding-left: 120px;
+		padding-left: 40px;
 		margin-top: -30px;
 		font-size: 35px;
 		font-family: myfont7; 
 	}
-	
-	#videos{padding-left: 80px;}
 	
 	.listen{
 		font-family: myfont3;
 		color: red;
 		font-size: 90px;
 		margin: 0 auto;
-		padding-left: 100px;
+		padding-left: 20px;
 		padding-top: 30px;
 	}
 	.listen_big{
 		font-family: myfont3; 
 		color: red; 
 		font-size: 150px; 
-		margin-left: -15px;
+		padding-left: 50px;
 		margin-top: -200px;
 		opacity: 0.1;
 	}
 	.info2{
 		color: white;
-		padding-left: 130px;
+		padding-left: 45px;
 		margin-top: -50px;
 		font-size: 35px;
 		font-family: myfont7; 
 	}
 	
-	#apple{padding-left: 175px;}
-	#logo1{padding-left: 220px; margin-top: -28px;}
-	#logo2{padding-left: 265px; margin-top: -27px;}
-	#logo3{padding-left: 305px; margin-top: -27px;}
+	#apple{padding-left: 95px;}
+	#logo1{padding-left: 135px; margin-top: -28px;}
+	#logo2{padding-left: 175px; margin-top: -27px;}
+	#logo3{padding-left: 215px; margin-top: -27px;}
 	.boxed{margin-left:-10px; margin-top:20px; }
-	.circle img{
-		margin-left: 200px;
-		margin-top: 500px;
-		width:100px;
-		height:110px;
-	}
+	.circle img{margin-left: 110px; margin-top: 500px;width:100px;height:110px;}
 	
-	.title{font-size: 25px;
+	.title{
+		font-size: 25px;
 		color: white;
 		font-family: myfont7;
 		margin-top: -80px;
-		margin-left: 340px;
+		margin-left: 250px;
 	}
 	.desc{
 		color: white;
 		font-family: myfont7;
 		margin-top: -15px;
-		margin-left: 340px;
+		margin-left: 250px;
 	}
 	
 	#songs{
@@ -499,12 +495,12 @@
 		color: white;
 		font-family: myfont7;
 		border: 1px solid white;
-		margin-left: 170px;
+		margin-left: 80px;
 		cursor: pointer;
 		width:353px;
-		height:325px;
+		height:325px; 
 		text-align: center; 
-    	vertical-align: middle;
+    	vertical-align:middle;
 		margin-top: 10px;
 	}
 	
@@ -522,7 +518,7 @@
 		color: red; 
 		font-size: 90px; 
 		margin: 0 auto; 
-		padding-left: 190px;
+		padding-left: 100px;
 		margin-top: 120px;
 	}
 	.tour_big{
@@ -532,33 +528,33 @@
 		margin: 0 auto; 
 		margin-top: -200px;
 		float: left;
-		padding-left: 155px;
+		padding-left: 65px;
 		opacity: 0.1;
 	}
 	
 	#ticket1 img{
-		margin-left:90px;
+		margin-left:-10px;
 		width:353px;
 		height:212px;
 		margin-right:100;
 		margin-top:30px;
 	}
 	#ticket2 img{
-		margin-left:90px;
+		margin-left:-10px;
 		width:353px;
 		height:212px;
 		margin-right:100;
 		margin-top:20px;
 	}
 	#ticket3 img{
-		margin-left:-515px;
+		margin-left:-528px;
 		width:353px;
 		height:212px;
 		margin-right:100;
 		margin-top:1350px;
 	}
 	#ticket4 img{
-		margin-left:-520px;
+		margin-left:-530px;
 		width:353px;
 		height:212px;
 		margin-right:120;
@@ -567,7 +563,7 @@
 	
 	#summer1{
 		font-size: 35px;
-		margin-left:80px;
+		margin-left:-20px;
 		margin-top:10px;
 		width:353px;
 		height:212px;
@@ -576,7 +572,7 @@
 	}	
 	#summer2{
 		font-size: 35px;
-		margin-left:90px;
+		margin-left:-10px;
 		margin-top:70px;
 		width:353px;
 		height:212px;
@@ -585,7 +581,7 @@
 	}
 	#summer3{
 		font-size: 35px;
-		margin-left:-275px;
+		margin-left:-285px;
 		margin-top:1110px;
 		width:353px;
 		height:212px;
@@ -594,16 +590,19 @@
 	}
 	#summer4{
 		font-size: 35px;
-		margin-left:-520px;
+		margin-left:-530px;
 		padding-top:1650px;
 		width:353px;
 		height:212px;
 		color: white;
 		font-family: myfont7;
 	}
+	
+	#andrew {font-size: 25px;}
+	#detroit {font-size: 25px;}
 
 	.mySlides{
-		margin-left:-160px; 
+		margin-left:-276px; 
 		padding-top:2000px;width:353px;
 		height:212px;
 		position: relative;
@@ -615,7 +614,7 @@
 		font-size: 90px;
 		color: black;
 	  	position: absolute;
-		padding-left: 100px;
+		padding-left: 130px;
 		margin-top: -350px;
 	}
 	
@@ -624,7 +623,7 @@
 		font-size: 45px;
 		color: #cf2b00;
 	  	position: absolute;
-		padding-left: 170px;
+		padding-left: 200px;
 		margin-top: -220px;
 	}
 	
@@ -633,7 +632,7 @@
 		font-size: 35px;
 		color: black;
 	  	position: absolute;
-		padding-left: 215px;
+		padding-left: 245px;
 		margin-top: -160px;
 	}
 	
@@ -642,7 +641,7 @@
 		font-size: 60px;
 		color: black;
 	  	position: absolute;
-		padding-left: 390px;
+		padding-left: 420px;
 		margin-top: -100px;
 	}
 	
@@ -653,7 +652,7 @@
 		height:350px;
 	}
 	.dot-container{
-		margin-left:-275px;
+		margin-left:-390px;
 		padding-top:2750px;
 	}
 	
@@ -663,7 +662,7 @@
 		font-size: 90px;
 		color: #e23000;
 	  	position: absolute;
-		padding-left: 210px;
+		padding-left: 90px;
 		margin-top: 100px;
 	}
 	
@@ -672,7 +671,7 @@
 		font-size: 130px;
 		color: #ffffff;
 	  	position: absolute;
-		padding-left: 120px;
+		padding-left: 10px;
 		margin-top: 170px;
 	}
 	
@@ -681,14 +680,15 @@
 		font-size: 130px;
 		color: #ffffff;
 	  	position: absolute;
-		padding-left: 210px;
+		padding-left: 90px;
 		margin-top: 290px;
 	}
 	
 	.emailInput{
-		margin-top: 220px;
+		margin-left:0px; 
+		margin-top: 110px;
+		width: 483px; 
 		height:65px;
-		min-width: 667px; 
 		box-shadow: none !important;
 		-moz-box-shadow:  none !important; 
 		text-align: center; 
@@ -698,59 +698,61 @@
 		font-size: 20px;
 	}
 	.btn{
-		margin-left:20px;
-		margin-top:30px;
-		width:600px;
+		margin-left:-440px;
+		margin-top:300px;
+		width:400px;
 		height:65px;
 		border-radius: 5px;
 		font-size: 20px;
 	}
-	
-	#whitebar img{margin-top:40px;width:667px;height:30px;}
+	#whitebar img{
+		margin-top:40px;
+		width:667px;
+		height:30px;
+	}
 	
 	.facebook-logo img{
 		width: 15px;
 		height:25px;
 		margin-top:-40px;
-		margin-left:-440px;
+		margin-left:-450px;
 	}
 	.youtube-logo img{
 		width: 33px;
 		height:25px;
 		margin-top:15px;
-		margin-left:-420px;
+		margin-left:-470px;
 	}
 	.instagram-logo img{
 		width: 25px;
 		height:25px;
 		margin-top:30px;
-		margin-left:-390px;
+		margin-left:-470px;
 	}
 	.snapcatch-logo img{
 		width: 28px;
 		height:25px;
 		margin-top:30px;
-		margin-left:-365px;
+		margin-left:-480px;
 	}
 	.twitter-logo img{
 		width: 28px;
 		height:25px;
 		margin-top:30px;
-		margin-left:-325px;
+		margin-left:-480px;
 	}
 
 	.artist_name2 img{
-		width: 400px;
-		height:40px;
+		width: 219px;
+		height:21px;
 		margin-top:80px;
 		margin-left:60px;
 	}
 	.copyright{
-		width:500px;
-		height:40px;
+		width:320px;
+		height:21px;
 		margin-top:10px;
-		margin-left:125px;
-		font-size: 15px;
+		margin-left:80px;
 	}
 	
 }
