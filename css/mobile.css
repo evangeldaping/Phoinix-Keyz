@@ -383,7 +383,7 @@
 @media only screen and (min-width:568px) and (max-width: 667px){
 	section.parallax-1 { 
 		background-image: url("../images//artist-bg.jpg"); 
-		width: 667px;
+		width: 568px;
 	  	height: 765px;
 		background-repeat: no-repeat;
 	  	background-size: cover;
@@ -392,7 +392,7 @@
 	}
 	
 	#wrapper {
-		width: 667px;
+		width: 568px;
 		height: 5250px;
 		margin: 0 auto;
 		margin-top: -700px;
