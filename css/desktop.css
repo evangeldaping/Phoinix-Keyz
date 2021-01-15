@@ -517,17 +517,17 @@
 	}
 	
 	#artist_name{
-		margin-top: 230px;
+		margin-top: 260px;
 		margin-left: -30px;
 		height: 40px;
 		width:  350px;
 	}
 	
-	#facebook {width: 25px;height:35px;margin-top: 265px;margin-left: -75px;}
-	#youtube {width: 40px;height:35px;margin-top: 265px;margin-left: -45px;}
-	#instagram {width: 35px;height:35px;margin-top: 265px;margin-left: -10px;}
-	#snapcatch {width: 30px;height:35px;margin-top: 265px;margin-left: 15px;}
-	#twitter {width: 30px;height:35px;margin-top: 265px;margin-left: 30px;}
+	#facebook {width: 25px;height:35px;margin-top: 295px;margin-left: -75px;}
+	#youtube {width: 40px;height:35px;margin-top: 295px;margin-left: -45px;}
+	#instagram {width: 35px;height:35px;margin-top: 295px;margin-left: -10px;}
+	#snapcatch {width: 30px;height:35px;margin-top: 295px;margin-left: 15px;}
+	#twitter {width: 30px;height:35px;margin-top: 295px;margin-left: 30px;}
 
 	.vid{
 		font-family: myfont3; 
