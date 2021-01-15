@@ -1,7 +1,7 @@
 
 /********** iPhone 5 **********/
 
-@media only screen and (min-width:320px) and (max-width: 568px){
+@media only screen and (min-width:165px) and (max-width: 568px){
 	
 	section.parallax-1 { 
 		background-image: url("../images//artist-bg.jpg"); 
